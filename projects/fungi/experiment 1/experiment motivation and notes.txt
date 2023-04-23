@@ -1,0 +1,8 @@
+
+
+1. targest were selected semi randomly (targets were selected such that each target has many potential distractors
+according to the required contrasts
+2. distractors were selected such that mean similarity will be equal across the 3 distractor layer conditions. 
+
+note: this is the result of previous pilots in which similarity was different across the 3 conditions: 
+this resulted in a stepwise pattern in memory (as more similar distractors are harder) 
