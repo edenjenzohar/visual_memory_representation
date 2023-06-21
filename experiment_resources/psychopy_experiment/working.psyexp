@@ -1,0 +1,1389 @@
+﻿<?xml version="1.0" ?>
+<PsychoPy2experiment encoding="utf-8" version="2021.2.3">
+  <Settings>
+    <Param name="Audio latency priority" updates="None" val="use prefs" valType="str"/>
+    <Param name="Audio lib" updates="None" val="use prefs" valType="str"/>
+    <Param name="Completed URL" updates="None" val="" valType="str"/>
+    <Param name="Data file delimiter" updates="None" val="auto" valType="str"/>
+    <Param name="Data filename" updates="None" val="u'data/%s_%s_%s' % (expInfo['ID'], expName, expInfo['date'])" valType="code"/>
+    <Param name="Enable Escape" updates="None" val="True" valType="bool"/>
+    <Param name="Experiment info" updates="None" val="{'ID': ''}" valType="code"/>
+    <Param name="Force stereo" updates="None" val="True" valType="bool"/>
+    <Param name="Full-screen window" updates="None" val="True" valType="bool"/>
+    <Param name="HTML path" updates="None" val="" valType="str"/>
+    <Param name="Incomplete URL" updates="None" val="" valType="str"/>
+    <Param name="Monitor" updates="None" val="testMonitor" valType="str"/>
+    <Param name="Resources" updates="None" val="['badlands_1.jpg', 'badlands_3.jpg', 'badlands_6.jpg', 'badlands_9.jpg', 'badlands_10.jpg', 'badlands_16.jpg', 'badlands_20.jpg', 'badlands_21.jpg', 'badlands_23.jpg', 'badlands_24.jpg', 'badlands_26.jpg', 'badlands_27.jpg', 'badlands_30.jpg', 'badlands_33.jpg', 'badlands_34.jpg', 'badlands_35.jpg', 'badlands_36.jpg', 'badlands_44.jpg', 'badlands_46.jpg', 'badlands_47.jpg', 'badlands_52.jpg', 'badlands_53.jpg', 'badlands_54.jpg', 'badlands_55.jpg', 'badlands_59.jpg', 'badlands_60.jpg', 'badlands_62.jpg', 'badlands_63.jpg', 'badlands_67.jpg', 'badlands_70.jpg', 'badlands_72.jpg', 'badlands_79.jpg', 'badlands_80.jpg', 'badlands_81.jpg', 'badlands_85.jpg', 'badlands_88.jpg', 'badlands_94.jpg', 'badlands_97.jpg', 'badlands_98.jpg', 'badlands_101.jpg', 'badlands_102.jpg', 'badlands_103.jpg', 'badlands_104.jpg', 'badlands_105.jpg', 'badlands_106.jpg', 'badlands_113.jpg', 'badlands_114.jpg', 'badlands_115.jpg', 'badlands_119.jpg', 'badlands_120.jpg', 'badlands_121.jpg', 'badlands_122.jpg', 'badlands_125.jpg', 'badlands_128.jpg', 'badlands_129.jpg', 'badlands_137.jpg', 'badlands_138.jpg', 'badlands_139.jpg', 'badlands_150.jpg', 'badlands_152.jpg', 'badlands_156.jpg', 'badlands_157.jpg', 'badlands_164.jpg', 'badlands_166.jpg', 'badlands_170.jpg', 'badlands_171.jpg', 'badlands_173.jpg', 'badlands_174.jpg', 'badlands_175.jpg', 'badlands_180.jpg', 'badlands_183.jpg', 'badlands_184.jpg', 'badlands_185.jpg', 'badlands_194.jpg', 'badlands_200.jpg', 'badlands_201.jpg', 'badlands_203.jpg', 'badlands_207.jpg', 'badlands_211.jpg', 'badlands_213.jpg', 'badlands_214.jpg', 'badlands_215.jpg', 'badlands_216.jpg', 'badlands_217.jpg', 'badlands_219.jpg', 'badlands_221.jpg', 'badlands_222.jpg', 'badlands_225.jpg', 'badlands_227.jpg', 'badlands_228.jpg', 'bird1.jpg', 'bird2.jpg', 'bird3.jpg', 'bridge_1.jpg', 'bridge_4.jpg', 'bridge_17.jpg', 'bridge_20.jpg', 'bridge_22.jpg', 'bridge_24.jpg', 'bridge_27.jpg', 'bridge_31.jpg', 'bridge_35.jpg', 'bridge_38.jpg', 'bridge_39.jpg', 'bridge_45.jpg', 'bridge_52.jpg', 'bridge_54.jpg', 'bridge_60.jpg', 'bridge_61.jpg', 'bridge_62.jpg', 'bridge_63.jpg', 'bridge_64.jpg', 'bridge_65.jpg', 'bridge_66.jpg', 'bridge_68.jpg', 'bridge_72.jpg', 'bridge_74.jpg', 'bridge_75.jpg', 'bridge_76.jpg', 'bridge_79.jpg', 'bridge_82.jpg', 'bridge_86.jpg', 'bridge_87.jpg', 'bridge_91.jpg', 'bridge_96.jpg', 'bridge_102.jpg', 'bridge_106.jpg', 'bridge_108.jpg', 'bridge_110.jpg', 'bridge_112.jpg', 'bridge_116.jpg', 'bridge_117.jpg', 'bridge_118.jpg', 'bridge_120.jpg', 'bridge_121.jpg', 'bridge_124.jpg', 'bridge_126.jpg', 'bridge_128.jpg', 'bridge_133.jpg', 'bridge_134.jpg', 'bridge_136.jpg', 'bridge_140.jpg', 'bridge_142.jpg', 'bridge_143.jpg', 'bridge_144.jpg', 'bridge_146.jpg', 'bridge_147.jpg', 'bridge_148.jpg', 'bridge_152.jpg', 'bridge_155.jpg', 'bridge_156.jpg', 'bridge_158.jpg', 'bridge_163.jpg', 'bridge_164.jpg', 'bridge_167.jpg', 'bridge_169.jpg', 'bridge_172.jpg', 'bridge_173.jpg', 'bridge_179.jpg', 'bridge_180.jpg', 'bridge_181.jpg', 'bridge_184.jpg', 'bridge_190.jpg', 'bridge_191.jpg', 'bridge_193.jpg', 'bridge_197.jpg', 'bridge_202.jpg', 'bridge_204.jpg', 'bridge_205.jpg', 'bridge_211.jpg', 'bridge_212.jpg', 'bridge_218.jpg', 'bridge_224.jpg', 'bridge_225.jpg', 'bridge_228.jpg', 'bridge_234.jpg', 'bridge_238.jpg', 'bridge_244.jpg', 'bridge_250.jpg', 'bridge_253.jpg', 'bridge_254.jpg', 'bridge_256.jpg', 'bridge_266.jpg', 'demo_encoding.xlsx', 'fence1.jpg', 'fence2.jpg', 'fence3.jpg', 'fence4.jpg', 'flower1_pair.jpg', 'flower1.jpg', 'flower2.jpg', 'flower3.jpg', 'golf_course_0.jpg', 'golf_course_2.jpg', 'golf_course_3.jpg', 'golf_course_15.jpg', 'golf_course_16.jpg', 'golf_course_23.jpg', 'golf_course_25.jpg', 'golf_course_26.jpg', 'golf_course_33.jpg', 'golf_course_35.jpg', 'golf_course_41.jpg', 'golf_course_42.jpg', 'golf_course_55.jpg', 'golf_course_56.jpg', 'golf_course_59.jpg', 'golf_course_61.jpg', 'golf_course_67.jpg', 'golf_course_71.jpg', 'golf_course_72.jpg', 'golf_course_78.jpg', 'golf_course_87.jpg', 'golf_course_97.jpg', 'golf_course_101.jpg', 'golf_course_102.jpg', 'golf_course_105.jpg', 'golf_course_113.jpg', 'golf_course_114.jpg', 'golf_course_116.jpg', 'golf_course_120.jpg', 'golf_course_123.jpg', 'golf_course_127.jpg', 'golf_course_128.jpg', 'golf_course_130.jpg', 'golf_course_133.jpg', 'golf_course_134.jpg', 'golf_course_137.jpg', 'golf_course_138.jpg', 'golf_course_144.jpg', 'golf_course_157.jpg', 'golf_course_160.jpg', 'golf_course_161.jpg', 'golf_course_162.jpg', 'golf_course_164.jpg', 'golf_course_166.jpg', 'golf_course_171.jpg', 'golf_course_174.jpg', 'golf_course_176.jpg', 'golf_course_179.jpg', 'golf_course_181.jpg', 'golf_course_188.jpg', 'golf_course_193.jpg', 'golf_course_194.jpg', 'golf_course_195.jpg', 'golf_course_196.jpg', 'golf_course_199.jpg', 'golf_course_202.jpg', 'golf_course_209.jpg', 'golf_course_212.jpg', 'golf_course_214.jpg', 'golf_course_217.jpg', 'golf_course_218.jpg', 'golf_course_219.jpg', 'golf_course_221.jpg', 'golf_course_226.jpg', 'golf_course_235.jpg', 'golf_course_238.jpg', 'golf_course_241.jpg', 'golf_course_252.jpg', 'golf_course_253.jpg', 'golf_course_262.jpg', 'golf_course_265.jpg', 'golf_course_269.jpg', 'golf_course_282.jpg', 'golf_course_288.jpg', 'golf_course_291.jpg', 'golf_course_297.jpg', 'golf_course_300.jpg', 'golf_course_305.jpg', 'golf_course_307.jpg', 'golf_course_308.jpg', 'golf_course_309.jpg', 'golf_course_312.jpg', 'golf_course_313.jpg', 'golf_course_316.jpg', 'golf_course_317.jpg', 'golf_course_328.jpg', 'golf_course_331.jpg', 'golf_course_333.jpg', 'golf_course_338.jpg', 'golf_course_342.jpg', 'highway_3.jpg', 'highway_9.jpg', 'highway_15.jpg', 'highway_17.jpg', 'highway_18.jpg', 'highway_28.jpg', 'highway_29.jpg', 'highway_30.jpg', 'highway_31.jpg', 'highway_33.jpg', 'highway_36.jpg', 'highway_37.jpg', 'highway_42.jpg', 'highway_50.jpg', 'highway_53.jpg', 'highway_58.jpg', 'highway_60.jpg', 'highway_76.jpg', 'highway_78.jpg', 'highway_81.jpg', 'highway_83.jpg', 'highway_85.jpg', 'highway_87.jpg', 'highway_90.jpg', 'highway_93.jpg', 'highway_101.jpg', 'highway_102.jpg', 'highway_107.jpg', 'highway_122.jpg', 'highway_134.jpg', 'highway_138.jpg', 'highway_141.jpg', 'highway_147.jpg', 'highway_148.jpg', 'highway_154.jpg', 'highway_156.jpg', 'highway_160.jpg', 'highway_171.jpg', 'highway_172.jpg', 'highway_174.jpg', 'highway_177.jpg', 'highway_178.jpg', 'highway_191.jpg', 'highway_193.jpg', 'highway_199.jpg', 'highway_203.jpg', 'highway_204.jpg', 'highway_206.jpg', 'highway_209.jpg', 'highway_226.jpg', 'highway_245.jpg', 'highway_246.jpg', 'highway_247.jpg', 'highway_251.jpg', 'highway_257.jpg', 'highway_265.jpg', 'highway_268.jpg', 'highway_269.jpg', 'highway_273.jpg', 'highway_274.jpg', 'highway_278.jpg', 'highway_287.jpg', 'highway_288.jpg', 'highway_290.jpg', 'highway_293.jpg', 'highway_294.jpg', 'highway_295.jpg', 'highway_305.jpg', 'highway_308.jpg', 'highway_313.jpg', 'highway_314.jpg', 'highway_315.jpg', 'highway_319.jpg', 'highway_335.jpg', 'highway_342.jpg', 'highway_354.jpg', 'highway_359.jpg', 'highway_365.jpg', 'highway_368.jpg', 'highway_369.jpg', 'highway_379.jpg', 'highway_383.jpg', 'highway_384.jpg', 'highway_389.jpg', 'highway_394.jpg', 'highway_399.jpg', 'highway_404.jpg', 'highway_406.jpg', 'highway_413.jpg', 'highway_415.jpg', 'index.html', 'leaf1.jpg', 'leaf2.jpg', 'leaf3.jpg', 'leaf4.jpg', 'mountain_3.jpg', 'mountain_19.jpg', 'mountain_22.jpg', 'mountain_29.jpg', 'mountain_32.jpg', 'mountain_33.jpg', 'mountain_34.jpg', 'mountain_35.jpg', 'mountain_38.jpg', 'mountain_39.jpg', 'mountain_40.jpg', 'mountain_41.jpg', 'mountain_43.jpg', 'mountain_45.jpg', 'mountain_47.jpg', 'mountain_51.jpg', 'mountain_54.jpg', 'mountain_57.jpg', 'mountain_62.jpg', 'mountain_72.jpg', 'mountain_76.jpg', 'mountain_87.jpg', 'mountain_88.jpg', 'mountain_89.jpg', 'mountain_91.jpg', 'mountain_92.jpg', 'mountain_93.jpg', 'mountain_94.jpg', 'mountain_95.jpg', 'mountain_97.jpg', 'mountain_101.jpg', 'mountain_102.jpg', 'mountain_110.jpg', 'mountain_120.jpg', 'mountain_123.jpg', 'mountain_126.jpg', 'mountain_128.jpg', 'mountain_131.jpg', 'mountain_135.jpg', 'mountain_137.jpg', 'mountain_138.jpg', 'mountain_143.jpg', 'mountain_146.jpg', 'mountain_151.jpg', 'mountain_152.jpg', 'mountain_154.jpg', 'mountain_156.jpg', 'mountain_157.jpg', 'mountain_160.jpg', 'mountain_166.jpg', 'mountain_169.jpg', 'mountain_171.jpg', 'mountain_176.jpg', 'mountain_180.jpg', 'mountain_184.jpg', 'mountain_187.jpg', 'mountain_189.jpg', 'mountain_190.jpg', 'mountain_192.jpg', 'mountain_193.jpg', 'mountain_198.jpg', 'mountain_199.jpg', 'mountain_202.jpg', 'mountain_204.jpg', 'mountain_206.jpg', 'mountain_212.jpg', 'mountain_221.jpg', 'mountain_222.jpg', 'mountain_223.jpg', 'mountain_226.jpg', 'mountain_228.jpg', 'mountain_230.jpg', 'mountain_232.jpg', 'mountain_233.jpg', 'mountain_244.jpg', 'mountain_249.jpg', 'mountain_250.jpg', 'mountain_251.jpg', 'mountain_253.jpg', 'mountain_256.jpg', 'mountain_268.jpg', 'mountain_277.jpg', 'mountain_290.jpg', 'mountain_293.jpg', 'mountain_294.jpg', 'mountain_295.jpg', 'mountain_302.jpg', 'mountain_306.jpg', 'mountain_307.jpg', 'mountain_309.jpg', 'playground_2.jpg', 'playground_6.jpg', 'playground_7.jpg', 'playground_10.jpg', 'playground_12.jpg', 'playground_14.jpg', 'playground_15.jpg', 'playground_16.jpg', 'playground_21.jpg', 'playground_22.jpg', 'playground_26.jpg', 'playground_30.jpg', 'playground_33.jpg', 'playground_36.jpg', 'playground_37.jpg', 'playground_39.jpg', 'playground_40.jpg', 'playground_42.jpg', 'playground_43.jpg', 'playground_47.jpg', 'playground_49.jpg', 'playground_50.jpg', 'playground_54.jpg', 'playground_55.jpg', 'playground_60.jpg', 'playground_61.jpg', 'playground_63.jpg', 'playground_64.jpg', 'playground_65.jpg', 'playground_68.jpg', 'playground_72.jpg', 'playground_74.jpg', 'playground_76.jpg', 'playground_78.jpg', 'playground_83.jpg', 'playground_84.jpg', 'playground_85.jpg', 'playground_98.jpg', 'playground_103.jpg', 'playground_110.jpg', 'playground_117.jpg', 'playground_118.jpg', 'playground_120.jpg', 'playground_122.jpg', 'playground_124.jpg', 'playground_126.jpg', 'playground_127.jpg', 'playground_131.jpg', 'playground_132.jpg', 'playground_137.jpg', 'playground_140.jpg', 'playground_141.jpg', 'playground_144.jpg', 'playground_145.jpg', 'playground_153.jpg', 'playground_154.jpg', 'playground_162.jpg', 'playground_164.jpg', 'playground_165.jpg', 'playground_167.jpg', 'playground_173.jpg', 'playground_176.jpg', 'playground_181.jpg', 'playground_184.jpg', 'playground_191.jpg', 'playground_195.jpg', 'playground_196.jpg', 'playground_204.jpg', 'playground_205.jpg', 'playground_214.jpg', 'playground_215.jpg', 'playground_219.jpg', 'playground_222.jpg', 'playground_227.jpg', 'playground_229.jpg', 'playground_233.jpg', 'playground_235.jpg', 'playground_237.jpg', 'playground_240.jpg', 'playground_241.jpg', 'playground_242.jpg', 'playground_244.jpg', 'playground_246.jpg', 'playground_248.jpg', 'playground_249.jpg', 'playground_251.jpg', 'playground_256.jpg', 'playground_257.jpg', 'playground_258.jpg', 'playground_268.jpg', 'sub_0.csv', 'sub_1.csv', 'sub_2.csv', 'sub_3.csv', 'sub_4.csv', 'sub_5.csv', 'sub_6.csv', 'sub_7.csv', 'sub_8.csv', 'sub_9.csv', 'sub_10.csv', 'sub_11.csv', 'sub_12.csv', 'sub_13.csv', 'sub_14.csv', 'sub_15.csv', 'sub_16.csv', 'sub_17.csv', 'sub_18.csv', 'sub_19.csv', 'sub_20.csv', 'sub_21.csv', 'sub_22.csv', 'sub_23.csv', 'sub_24.csv', 'sub_25.csv', 'sub_26.csv', 'sub_27.csv', 'sub_28.csv', 'sub_29.csv', 'sub_30.csv', 'sub_31.csv', 'sub_32.csv', 'sub_33.csv', 'sub_34.csv', 'sub_35.csv', 'sub_36.csv', 'sub_37.csv', 'sub_38.csv', 'sub_39.csv', 'sub_40.csv', 'sub_41.csv', 'sub_42.csv', 'sub_43.csv', 'sub_44.csv', 'sub_45.csv', 'sub_46.csv', 'sub_47.csv', 'sub_48.csv', 'sub_49.csv', 'sub_50.csv', 'sub_51.csv', 'sub_52.csv', 'sub_53.csv', 'sub_54.csv', 'sub_55.csv', 'sub_56.csv', 'sub_57.csv', 'sub_58.csv', 'sub_59.csv', 'sub_60.csv', 'sub_61.csv', 'sub_62.csv', 'sub_63.csv', 'sub_64.csv', 'sub_65.csv', 'sub_66.csv', 'sub_67.csv', 'sub_68.csv', 'sub_69.csv', 'sub_70.csv', 'sub_71.csv', 'sub_72.csv', 'sub_73.csv', 'sub_74.csv', 'sub_75.csv', 'sub_76.csv', 'sub_77.csv', 'sub_78.csv', 'sub_79.csv', 'sub_80.csv', 'sub_81.csv', 'sub_82.csv', 'sub_83.csv', 'sub_84.csv', 'sub_85.csv', 'sub_86.csv', 'sub_87.csv', 'sub_88.csv', 'sub_89.csv', 'sub_90.csv', 'sub_91.csv', 'sub_92.csv', 'sub_93.csv', 'sub_94.csv', 'sub_95.csv', 'sub_96.csv', 'sub_97.csv', 'sub_98.csv', 'sub_99.csv', 'trail1.jpg', 'trail2.jpg', 'trail3.jpg', 'tree1.jpg', 'tree2.jpg', 'tree3.jpg']" valType="list"/>
+    <Param name="Save csv file" updates="None" val="False" valType="bool"/>
+    <Param name="Save excel file" updates="None" val="False" valType="bool"/>
+    <Param name="Save hdf5 file" updates="None" val="False" valType="bool"/>
+    <Param name="Save log file" updates="None" val="True" valType="bool"/>
+    <Param name="Save psydat file" updates="None" val="True" valType="bool"/>
+    <Param name="Save wide csv file" updates="None" val="True" valType="bool"/>
+    <Param name="Screen" updates="None" val="1" valType="num"/>
+    <Param name="Show info dlg" updates="None" val="True" valType="bool"/>
+    <Param name="Show mouse" updates="None" val="False" valType="bool"/>
+    <Param name="Units" updates="None" val="height" valType="str"/>
+    <Param name="Use version" updates="None" val="" valType="str"/>
+    <Param name="Window size (pixels)" updates="None" val="[1512, 982]" valType="list"/>
+    <Param name="blendMode" updates="None" val="avg" valType="str"/>
+    <Param name="color" updates="None" val="$[0,0,0]" valType="color"/>
+    <Param name="colorSpace" updates="None" val="rgb" valType="str"/>
+    <Param name="elAddress" updates="None" val="100.1.1.1" valType="str"/>
+    <Param name="elDataFiltering" updates="None" val="FILTER_LEVEL_2" valType="str"/>
+    <Param name="elLiveFiltering" updates="None" val="FILTER_LEVEL_OFF" valType="str"/>
+    <Param name="elModel" updates="None" val="EYELINK 1000 DESKTOP" valType="str"/>
+    <Param name="elPupilAlgorithm" updates="None" val="ELLIPSE_FIT" valType="str"/>
+    <Param name="elPupilMeasure" updates="None" val="PUPIL_AREA" valType="str"/>
+    <Param name="elSampleRate" updates="None" val="1000" valType="num"/>
+    <Param name="elSimMode" updates="None" val="False" valType="bool"/>
+    <Param name="elTrackEyes" updates="None" val="RIGHT_EYE" valType="str"/>
+    <Param name="elTrackingMode" updates="None" val="PUPIL_CR_TRACKING" valType="str"/>
+    <Param name="expName" updates="None" val="working_memory" valType="str"/>
+    <Param name="exportHTML" updates="None" val="on Sync" valType="str"/>
+    <Param name="eyetracker" updates="None" val="None" valType="str"/>
+    <Param name="gpAddress" updates="None" val="127.0.0.1" valType="str"/>
+    <Param name="gpPort" updates="None" val="4242" valType="num"/>
+    <Param name="logging level" updates="None" val="exp" valType="code"/>
+    <Param name="mgBlink" updates="None" val="('MIDDLE_BUTTON',)" valType="list"/>
+    <Param name="mgMove" updates="None" val="CONTINUOUS" valType="str"/>
+    <Param name="mgSaccade" updates="None" val="0.5" valType="num"/>
+    <Param name="tbLicenseFile" updates="None" val="" valType="str"/>
+    <Param name="tbModel" updates="None" val="" valType="str"/>
+    <Param name="tbSampleRate" updates="None" val="60" valType="num"/>
+    <Param name="tbSerialNo" updates="None" val="" valType="str"/>
+  </Settings>
+  <Routines>
+    <Routine name="consent_form">
+      <KeyboardComponent name="key_resp">
+        <Param name="allowedKeys" updates="constant" val="'y','n','left','right','space'" valType="list"/>
+        <Param name="correctAns" updates="constant" val="" valType="str"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="discard previous" updates="constant" val="True" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="forceEndRoutine" updates="constant" val="True" valType="bool"/>
+        <Param name="name" updates="None" val="key_resp" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="store" updates="constant" val="last key" valType="str"/>
+        <Param name="storeCorrect" updates="constant" val="False" valType="bool"/>
+        <Param name="syncScreenRefresh" updates="constant" val="True" valType="bool"/>
+      </KeyboardComponent>
+      <TextComponent name="text_consent_form">
+        <Param name="color" updates="constant" val="white" valType="color"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flip" updates="constant" val="None" valType="str"/>
+        <Param name="font" updates="constant" val="Open Sans" valType="str"/>
+        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.025" valType="num"/>
+        <Param name="name" updates="None" val="text_consent_form" valType="code"/>
+        <Param name="opacity" updates="constant" val="" valType="num"/>
+        <Param name="ori" updates="constant" val="0" valType="num"/>
+        <Param name="pos" updates="constant" val="(0, 0.025)" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="text" updates="constant" val="By pressing ‘i consent’ I hereby accept to participate in a visual memory experiment.&amp;#10;I declare I understood the experiment includes the following parts: Experiment description and instructions, practice phase, study phase and test phase.&amp;#10;&amp;#10;The goal of this study is to examine memory encoding processes.&amp;#10;&amp;#10;Methods: The experiment will be presented on a computer screen. In the first part you will study a series of neutral images and later will be asked to recognize them. Duration: up to 10 minutes. Time to complete the experiment from approval: 24 hours&amp;#10;Participants: Healthy population (Amazon Mechanical Turk workers)&amp;#10;Number of subjects: 100&amp;#10;Side effects or discomfort: none&amp;#10;&amp;#10;Benefit from the experiment: Participants are not expected to gain personal benefit from this experiment. Through this experiment the research team hopes to uncover how human remember visual stimuli.&amp;#10;Possible risk factors: none&amp;#10;&amp;#10;Voluntary participation: participants are free to quit the experiment at any moment with no penalty, since participation is voluntary.&amp;#10;&amp;#10;Research team is located in Tel Aviv University, and the experimental protocol was approved by its ethics committee.&amp;#10;&amp;#10;By pressing the &quot;I conesnt&quot; button, I hereby declare that I read the above information and agree to participate in this experiment.&amp;#10;" valType="str"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="num"/>
+      </TextComponent>
+      <ButtonComponent name="button">
+        <Param name="anchor" updates="constant" val="center" valType="str"/>
+        <Param name="bold" updates="constant" val="True" valType="bool"/>
+        <Param name="borderColor" updates="constant" val="None" valType="color"/>
+        <Param name="borderWidth" updates="constant" val="0" valType="num"/>
+        <Param name="callback" updates="constant" val="" valType="extendedCode"/>
+        <Param name="color" updates="constant" val="white" valType="color"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="fillColor" updates="constant" val="green" valType="color"/>
+        <Param name="font" updates="constant" val="Arvo" valType="str"/>
+        <Param name="forceEndRoutine" updates="constant" val="True" valType="bool"/>
+        <Param name="italic" updates="constant" val="False" valType="bool"/>
+        <Param name="letterHeight" updates="constant" val="0.03" valType="num"/>
+        <Param name="name" updates="None" val="button" valType="code"/>
+        <Param name="oncePerClick" updates="constant" val="True" valType="bool"/>
+        <Param name="opacity" updates="constant" val="" valType="num"/>
+        <Param name="ori" updates="constant" val="0" valType="num"/>
+        <Param name="padding" updates="constant" val="" valType="num"/>
+        <Param name="pos" updates="constant" val="(0, -0.38)" valType="list"/>
+        <Param name="save" updates="None" val="every click" valType="str"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="size" updates="constant" val="[0.16, 0.07]" valType="list"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="text" updates="constant" val="I consent" valType="str"/>
+        <Param name="timeRelativeTo" updates="constant" val="button onset" valType="str"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+      </ButtonComponent>
+    </Routine>
+    <Routine name="instructions_1">
+      <KeyboardComponent name="key_resp_2">
+        <Param name="allowedKeys" updates="constant" val="'space'" valType="list"/>
+        <Param name="correctAns" updates="constant" val="" valType="str"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="discard previous" updates="constant" val="True" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="forceEndRoutine" updates="constant" val="True" valType="bool"/>
+        <Param name="name" updates="None" val="key_resp_2" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="store" updates="constant" val="last key" valType="str"/>
+        <Param name="storeCorrect" updates="constant" val="False" valType="bool"/>
+        <Param name="syncScreenRefresh" updates="constant" val="True" valType="bool"/>
+      </KeyboardComponent>
+      <TextComponent name="text_instructions_first_slide">
+        <Param name="color" updates="constant" val="white" valType="color"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flip" updates="constant" val="None" valType="str"/>
+        <Param name="font" updates="constant" val="Open Sans" valType="str"/>
+        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.03" valType="num"/>
+        <Param name="name" updates="None" val="text_instructions_first_slide" valType="code"/>
+        <Param name="opacity" updates="constant" val="" valType="num"/>
+        <Param name="ori" updates="constant" val="0" valType="num"/>
+        <Param name="pos" updates="constant" val="(0, 0)" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="text" updates="constant" val="This experiment contains two parts: &amp;#10;&amp;#10;Part 1: &amp;#10;&amp;#10;&amp;#10;In this part you are asked to memorize a series of breifly presented images. In each trial, following the images presentation, you will be presented with two images, one of which was previously presented during that trial. Please select the image you have previosly seen using the corresponding arrow key (left\right).  &amp;#10;&amp;#10;&amp;#10;Part 2: &amp;#10;&amp;#10;&amp;#10;You are asked to rate the similarity between pairs of images. Rate the extent of the similarity by selecting the relevant score on the similarity scale at the bottom of the screen using the mouse. &amp;#10;&amp;#10;&amp;#10;We will begin with a short demo of part 1.&amp;#10;&amp;#10;&amp;#10;press the space bar to begin." valType="str"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="num"/>
+      </TextComponent>
+    </Routine>
+    <Routine name="instructions_before_exp">
+      <KeyboardComponent name="key_resp_after_demo">
+        <Param name="allowedKeys" updates="constant" val="'space'" valType="list"/>
+        <Param name="correctAns" updates="constant" val="" valType="str"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="discard previous" updates="constant" val="True" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="forceEndRoutine" updates="constant" val="True" valType="bool"/>
+        <Param name="name" updates="None" val="key_resp_after_demo" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="store" updates="constant" val="last key" valType="str"/>
+        <Param name="storeCorrect" updates="constant" val="False" valType="bool"/>
+        <Param name="syncScreenRefresh" updates="constant" val="True" valType="bool"/>
+      </KeyboardComponent>
+      <TextComponent name="text_after_demo_instr">
+        <Param name="color" updates="constant" val="white" valType="color"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flip" updates="constant" val="None" valType="str"/>
+        <Param name="font" updates="constant" val="Open Sans" valType="str"/>
+        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.05" valType="num"/>
+        <Param name="name" updates="None" val="text_after_demo_instr" valType="code"/>
+        <Param name="opacity" updates="constant" val="" valType="num"/>
+        <Param name="ori" updates="constant" val="0" valType="num"/>
+        <Param name="pos" updates="constant" val="(0, 0)" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="text" updates="constant" val="Now Part 1 of the experiment will begin. &amp;#10;&amp;#10;Reminder: &amp;#10;&amp;#10;In this part you are asked to memorize a series of breifly presented images. In each trial, following the images presentation, you will be presented with two images, one of which was previously presented during that trial. Please select the image you have previosly seen using the corresponding arrow key (left\right).  &amp;#10;&amp;#10;&amp;#10;press the spacebar to begin." valType="str"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="num"/>
+      </TextComponent>
+    </Routine>
+    <Routine name="exp_trials">
+      <ImageComponent name="exp_target_image">
+        <Param name="color" updates="constant" val="$[1,1,1]" valType="color"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flipHoriz" updates="constant" val="False" valType="bool"/>
+        <Param name="flipVert" updates="constant" val="False" valType="bool"/>
+        <Param name="image" updates="set every repeat" val="$target" valType="file"/>
+        <Param name="interpolate" updates="constant" val="linear" valType="str"/>
+        <Param name="mask" updates="constant" val="" valType="str"/>
+        <Param name="name" updates="None" val="exp_target_image" valType="code"/>
+        <Param name="opacity" updates="constant" val="" valType="num"/>
+        <Param name="ori" updates="constant" val="0" valType="num"/>
+        <Param name="pos" updates="constant" val="(0, 0)" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="size" updates="constant" val="(0.5, 0.5)" valType="list"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.5" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="0.05" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="texture resolution" updates="constant" val="128" valType="num"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+      </ImageComponent>
+      <ImageComponent name="exp_mask">
+        <Param name="color" updates="constant" val="$[1,1,1]" valType="color"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flipHoriz" updates="constant" val="False" valType="bool"/>
+        <Param name="flipVert" updates="constant" val="False" valType="bool"/>
+        <Param name="image" updates="set every repeat" val="$noise_image" valType="file"/>
+        <Param name="interpolate" updates="constant" val="linear" valType="str"/>
+        <Param name="mask" updates="constant" val="" valType="str"/>
+        <Param name="name" updates="None" val="exp_mask" valType="code"/>
+        <Param name="opacity" updates="constant" val="" valType="num"/>
+        <Param name="ori" updates="constant" val="0" valType="num"/>
+        <Param name="pos" updates="constant" val="(0, 0)" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="size" updates="constant" val="(0.5, 0.5)" valType="list"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.55" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="1" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="texture resolution" updates="constant" val="128" valType="num"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+      </ImageComponent>
+      <ImageComponent name="exp_right_image">
+        <Param name="color" updates="constant" val="$[1,1,1]" valType="color"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flipHoriz" updates="constant" val="False" valType="bool"/>
+        <Param name="flipVert" updates="constant" val="False" valType="bool"/>
+        <Param name="image" updates="set every repeat" val="$image1" valType="file"/>
+        <Param name="interpolate" updates="constant" val="linear" valType="str"/>
+        <Param name="mask" updates="constant" val="" valType="str"/>
+        <Param name="name" updates="None" val="exp_right_image" valType="code"/>
+        <Param name="opacity" updates="constant" val="" valType="num"/>
+        <Param name="ori" updates="constant" val="0" valType="num"/>
+        <Param name="pos" updates="constant" val="(0.3,0)" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="size" updates="constant" val="(0.5, 0.5)" valType="list"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="1.55" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="texture resolution" updates="constant" val="128" valType="num"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+      </ImageComponent>
+      <ImageComponent name="exp_left_image">
+        <Param name="color" updates="constant" val="$[1,1,1]" valType="color"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flipHoriz" updates="constant" val="False" valType="bool"/>
+        <Param name="flipVert" updates="constant" val="False" valType="bool"/>
+        <Param name="image" updates="set every repeat" val="$image2" valType="file"/>
+        <Param name="interpolate" updates="constant" val="linear" valType="str"/>
+        <Param name="mask" updates="constant" val="" valType="str"/>
+        <Param name="name" updates="None" val="exp_left_image" valType="code"/>
+        <Param name="opacity" updates="constant" val="" valType="num"/>
+        <Param name="ori" updates="constant" val="0" valType="num"/>
+        <Param name="pos" updates="constant" val="(-0.3, 0)" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="size" updates="constant" val="(0.5, 0.5)" valType="list"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="1.55" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="texture resolution" updates="constant" val="128" valType="num"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+      </ImageComponent>
+      <TextComponent name="text">
+        <Param name="color" updates="constant" val="white" valType="color"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flip" updates="constant" val="None" valType="str"/>
+        <Param name="font" updates="constant" val="Open Sans" valType="str"/>
+        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.1" valType="num"/>
+        <Param name="name" updates="None" val="text" valType="code"/>
+        <Param name="opacity" updates="constant" val="" valType="num"/>
+        <Param name="ori" updates="constant" val="0" valType="num"/>
+        <Param name="pos" updates="constant" val="(0, 0)" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="0.5" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="text" updates="set every repeat" val="+" valType="str"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="num"/>
+      </TextComponent>
+      <KeyboardComponent name="key_resp_3">
+        <Param name="allowedKeys" updates="constant" val="'left','right'" valType="list"/>
+        <Param name="correctAns" updates="constant" val="" valType="str"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="discard previous" updates="constant" val="True" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="forceEndRoutine" updates="constant" val="True" valType="bool"/>
+        <Param name="name" updates="None" val="key_resp_3" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="1.55" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="store" updates="constant" val="last key" valType="str"/>
+        <Param name="storeCorrect" updates="constant" val="False" valType="bool"/>
+        <Param name="syncScreenRefresh" updates="constant" val="True" valType="bool"/>
+      </KeyboardComponent>
+    </Routine>
+    <Routine name="demo_trials">
+      <ImageComponent name="demo_target">
+        <Param name="color" updates="constant" val="$[1,1,1]" valType="color"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flipHoriz" updates="constant" val="False" valType="bool"/>
+        <Param name="flipVert" updates="constant" val="False" valType="bool"/>
+        <Param name="image" updates="set every repeat" val="$demo_target_image" valType="file"/>
+        <Param name="interpolate" updates="constant" val="linear" valType="str"/>
+        <Param name="mask" updates="constant" val="" valType="str"/>
+        <Param name="name" updates="None" val="demo_target" valType="code"/>
+        <Param name="opacity" updates="constant" val="" valType="num"/>
+        <Param name="ori" updates="constant" val="0" valType="num"/>
+        <Param name="pos" updates="constant" val="(0, 0)" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="size" updates="constant" val="(0.5, 0.5)" valType="list"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="0.15" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="texture resolution" updates="constant" val="128" valType="num"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+      </ImageComponent>
+      <ImageComponent name="image">
+        <Param name="color" updates="constant" val="$[1,1,1]" valType="color"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flipHoriz" updates="constant" val="False" valType="bool"/>
+        <Param name="flipVert" updates="constant" val="False" valType="bool"/>
+        <Param name="image" updates="set every repeat" val="$noise_pattern" valType="file"/>
+        <Param name="interpolate" updates="constant" val="linear" valType="str"/>
+        <Param name="mask" updates="constant" val="" valType="str"/>
+        <Param name="name" updates="None" val="image" valType="code"/>
+        <Param name="opacity" updates="constant" val="" valType="num"/>
+        <Param name="ori" updates="constant" val="0" valType="num"/>
+        <Param name="pos" updates="constant" val="(0, 0)" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="size" updates="constant" val="(0.5, 0.5)" valType="list"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.15" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="0.15" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="texture resolution" updates="constant" val="128" valType="num"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+      </ImageComponent>
+      <ImageComponent name="demo_right_image">
+        <Param name="color" updates="constant" val="$[1,1,1]" valType="color"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flipHoriz" updates="constant" val="False" valType="bool"/>
+        <Param name="flipVert" updates="constant" val="False" valType="bool"/>
+        <Param name="image" updates="set every repeat" val="$demo_test_image_right" valType="file"/>
+        <Param name="interpolate" updates="constant" val="linear" valType="str"/>
+        <Param name="mask" updates="constant" val="" valType="str"/>
+        <Param name="name" updates="None" val="demo_right_image" valType="code"/>
+        <Param name="opacity" updates="constant" val="" valType="num"/>
+        <Param name="ori" updates="constant" val="0" valType="num"/>
+        <Param name="pos" updates="constant" val="(0.3, 0)" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="size" updates="constant" val="(0.5, 0.5)" valType="list"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.3" valType="code"/>
+        <Param name="stopType" updates="None" val="time (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="texture resolution" updates="constant" val="128" valType="num"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+      </ImageComponent>
+      <ImageComponent name="demo_left_image">
+        <Param name="color" updates="constant" val="$[1,1,1]" valType="color"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flipHoriz" updates="constant" val="False" valType="bool"/>
+        <Param name="flipVert" updates="constant" val="False" valType="bool"/>
+        <Param name="image" updates="set every repeat" val="$demo_test_image_left" valType="file"/>
+        <Param name="interpolate" updates="constant" val="linear" valType="str"/>
+        <Param name="mask" updates="constant" val="" valType="str"/>
+        <Param name="name" updates="None" val="demo_left_image" valType="code"/>
+        <Param name="opacity" updates="constant" val="" valType="num"/>
+        <Param name="ori" updates="constant" val="0" valType="num"/>
+        <Param name="pos" updates="constant" val="(-0.3, 0)" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="size" updates="constant" val="(0.5, 0.5)" valType="list"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.3" valType="code"/>
+        <Param name="stopType" updates="None" val="time (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="texture resolution" updates="constant" val="128" valType="num"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+      </ImageComponent>
+      <KeyboardComponent name="key_resp_demo">
+        <Param name="allowedKeys" updates="constant" val="'left','right'" valType="list"/>
+        <Param name="correctAns" updates="constant" val="" valType="str"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="discard previous" updates="constant" val="True" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="forceEndRoutine" updates="constant" val="True" valType="bool"/>
+        <Param name="name" updates="None" val="key_resp_demo" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.3" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="store" updates="constant" val="last key" valType="str"/>
+        <Param name="storeCorrect" updates="constant" val="False" valType="bool"/>
+        <Param name="syncScreenRefresh" updates="constant" val="True" valType="bool"/>
+      </KeyboardComponent>
+      <TextComponent name="choose_the_image_you_saw">
+        <Param name="color" updates="constant" val="white" valType="color"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flip" updates="constant" val="None" valType="str"/>
+        <Param name="font" updates="constant" val="Open Sans" valType="str"/>
+        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.03" valType="num"/>
+        <Param name="name" updates="None" val="choose_the_image_you_saw" valType="code"/>
+        <Param name="opacity" updates="constant" val="" valType="num"/>
+        <Param name="ori" updates="constant" val="0" valType="num"/>
+        <Param name="pos" updates="constant" val="(0, 0.3)" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.3" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="text" updates="constant" val="choose the image you have previously seen" valType="str"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="num"/>
+      </TextComponent>
+    </Routine>
+    <Routine name="encoding">
+      <ImageComponent name="image_0">
+        <Param name="color" updates="constant" val="$[1,1,1]" valType="color"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flipHoriz" updates="constant" val="False" valType="bool"/>
+        <Param name="flipVert" updates="constant" val="False" valType="bool"/>
+        <Param name="image" updates="set every repeat" val="$background_0" valType="file"/>
+        <Param name="interpolate" updates="constant" val="linear" valType="str"/>
+        <Param name="mask" updates="constant" val="" valType="str"/>
+        <Param name="name" updates="None" val="image_0" valType="code"/>
+        <Param name="opacity" updates="constant" val="" valType="num"/>
+        <Param name="ori" updates="constant" val="0" valType="num"/>
+        <Param name="pos" updates="constant" val="(0, 0)" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="size" updates="constant" val="(0.5, 0.5)" valType="list"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="1" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="0.25" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="texture resolution" updates="constant" val="128" valType="num"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+      </ImageComponent>
+      <ImageComponent name="image_1">
+        <Param name="color" updates="constant" val="$[1,1,1]" valType="color"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flipHoriz" updates="constant" val="False" valType="bool"/>
+        <Param name="flipVert" updates="constant" val="False" valType="bool"/>
+        <Param name="image" updates="set every repeat" val="$background_1" valType="file"/>
+        <Param name="interpolate" updates="constant" val="linear" valType="str"/>
+        <Param name="mask" updates="constant" val="" valType="str"/>
+        <Param name="name" updates="None" val="image_1" valType="code"/>
+        <Param name="opacity" updates="constant" val="" valType="num"/>
+        <Param name="ori" updates="constant" val="0" valType="num"/>
+        <Param name="pos" updates="constant" val="(0, 0)" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="size" updates="constant" val="(0.5, 0.5)" valType="list"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="1.25" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="0.25" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="texture resolution" updates="constant" val="128" valType="num"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+      </ImageComponent>
+      <ImageComponent name="image_2">
+        <Param name="color" updates="constant" val="$[1,1,1]" valType="color"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flipHoriz" updates="constant" val="False" valType="bool"/>
+        <Param name="flipVert" updates="constant" val="False" valType="bool"/>
+        <Param name="image" updates="set every repeat" val="$background_2" valType="file"/>
+        <Param name="interpolate" updates="constant" val="linear" valType="str"/>
+        <Param name="mask" updates="constant" val="" valType="str"/>
+        <Param name="name" updates="None" val="image_2" valType="code"/>
+        <Param name="opacity" updates="constant" val="" valType="num"/>
+        <Param name="ori" updates="constant" val="0" valType="num"/>
+        <Param name="pos" updates="constant" val="(0, 0)" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="size" updates="constant" val="(0.5, 0.5)" valType="list"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="1.5" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="0.25" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="texture resolution" updates="constant" val="128" valType="num"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+      </ImageComponent>
+      <ImageComponent name="image_3">
+        <Param name="color" updates="constant" val="$[1,1,1]" valType="color"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flipHoriz" updates="constant" val="False" valType="bool"/>
+        <Param name="flipVert" updates="constant" val="False" valType="bool"/>
+        <Param name="image" updates="set every repeat" val="$background_3" valType="file"/>
+        <Param name="interpolate" updates="constant" val="linear" valType="str"/>
+        <Param name="mask" updates="constant" val="" valType="str"/>
+        <Param name="name" updates="None" val="image_3" valType="code"/>
+        <Param name="opacity" updates="constant" val="" valType="num"/>
+        <Param name="ori" updates="constant" val="0" valType="num"/>
+        <Param name="pos" updates="constant" val="(0, 0)" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="size" updates="constant" val="(0.5, 0.5)" valType="list"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="1.75" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="0.25" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="texture resolution" updates="constant" val="128" valType="num"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+      </ImageComponent>
+      <ImageComponent name="image_4">
+        <Param name="color" updates="constant" val="$[1,1,1]" valType="color"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flipHoriz" updates="constant" val="False" valType="bool"/>
+        <Param name="flipVert" updates="constant" val="False" valType="bool"/>
+        <Param name="image" updates="set every repeat" val="$background_4" valType="file"/>
+        <Param name="interpolate" updates="constant" val="linear" valType="str"/>
+        <Param name="mask" updates="constant" val="" valType="str"/>
+        <Param name="name" updates="None" val="image_4" valType="code"/>
+        <Param name="opacity" updates="constant" val="" valType="num"/>
+        <Param name="ori" updates="constant" val="0" valType="num"/>
+        <Param name="pos" updates="constant" val="(0, 0)" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="size" updates="constant" val="(0.5, 0.5)" valType="list"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="2" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="0.25" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="texture resolution" updates="constant" val="128" valType="num"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+      </ImageComponent>
+      <ImageComponent name="image_5">
+        <Param name="color" updates="constant" val="$[1,1,1]" valType="color"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flipHoriz" updates="constant" val="False" valType="bool"/>
+        <Param name="flipVert" updates="constant" val="False" valType="bool"/>
+        <Param name="image" updates="set every repeat" val="$background_5" valType="file"/>
+        <Param name="interpolate" updates="constant" val="linear" valType="str"/>
+        <Param name="mask" updates="constant" val="" valType="str"/>
+        <Param name="name" updates="None" val="image_5" valType="code"/>
+        <Param name="opacity" updates="constant" val="" valType="num"/>
+        <Param name="ori" updates="constant" val="0" valType="num"/>
+        <Param name="pos" updates="constant" val="(0, 0)" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="size" updates="constant" val="(0.5, 0.5)" valType="list"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="2.25" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="0.25" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="texture resolution" updates="constant" val="128" valType="num"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+      </ImageComponent>
+      <TextComponent name="blank_screen">
+        <Param name="color" updates="constant" val="white" valType="color"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flip" updates="constant" val="None" valType="str"/>
+        <Param name="font" updates="constant" val="Open Sans" valType="str"/>
+        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.1" valType="num"/>
+        <Param name="name" updates="None" val="blank_screen" valType="code"/>
+        <Param name="opacity" updates="constant" val="" valType="num"/>
+        <Param name="ori" updates="constant" val="0" valType="num"/>
+        <Param name="pos" updates="constant" val="(0, 0)" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="2.5" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="1" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="text" updates="set every repeat" val="" valType="str"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="num"/>
+      </TextComponent>
+      <TextComponent name="fixation_encoding">
+        <Param name="color" updates="constant" val="white" valType="color"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flip" updates="constant" val="None" valType="str"/>
+        <Param name="font" updates="constant" val="Open Sans" valType="str"/>
+        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.1" valType="num"/>
+        <Param name="name" updates="None" val="fixation_encoding" valType="code"/>
+        <Param name="opacity" updates="constant" val="" valType="num"/>
+        <Param name="ori" updates="constant" val="0" valType="num"/>
+        <Param name="pos" updates="constant" val="(0, 0)" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="1" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="text" updates="set every repeat" val="+" valType="str"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="num"/>
+      </TextComponent>
+    </Routine>
+    <Routine name="test">
+      <ImageComponent name="image_left">
+        <Param name="color" updates="constant" val="$[1,1,1]" valType="color"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flipHoriz" updates="constant" val="False" valType="bool"/>
+        <Param name="flipVert" updates="constant" val="False" valType="bool"/>
+        <Param name="image" updates="set every repeat" val="$image1" valType="file"/>
+        <Param name="interpolate" updates="constant" val="linear" valType="str"/>
+        <Param name="mask" updates="constant" val="" valType="str"/>
+        <Param name="name" updates="None" val="image_left" valType="code"/>
+        <Param name="opacity" updates="constant" val="" valType="num"/>
+        <Param name="ori" updates="constant" val="0" valType="num"/>
+        <Param name="pos" updates="constant" val="(-0.3, 0)" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="size" updates="constant" val="(0.5, 0.5)" valType="list"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="texture resolution" updates="constant" val="128" valType="num"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+      </ImageComponent>
+      <ImageComponent name="image_right">
+        <Param name="color" updates="constant" val="$[1,1,1]" valType="color"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flipHoriz" updates="constant" val="False" valType="bool"/>
+        <Param name="flipVert" updates="constant" val="False" valType="bool"/>
+        <Param name="image" updates="set every repeat" val="$image2" valType="file"/>
+        <Param name="interpolate" updates="constant" val="linear" valType="str"/>
+        <Param name="mask" updates="constant" val="" valType="str"/>
+        <Param name="name" updates="None" val="image_right" valType="code"/>
+        <Param name="opacity" updates="constant" val="" valType="num"/>
+        <Param name="ori" updates="constant" val="0" valType="num"/>
+        <Param name="pos" updates="constant" val="(0.3, 0)" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="size" updates="constant" val="(0.5, 0.5)" valType="list"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="texture resolution" updates="constant" val="128" valType="num"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+      </ImageComponent>
+      <KeyboardComponent name="test_key_resp">
+        <Param name="allowedKeys" updates="constant" val="'left','right'" valType="list"/>
+        <Param name="correctAns" updates="constant" val="" valType="str"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="discard previous" updates="constant" val="True" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="forceEndRoutine" updates="constant" val="True" valType="bool"/>
+        <Param name="name" updates="None" val="test_key_resp" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="store" updates="constant" val="last key" valType="str"/>
+        <Param name="storeCorrect" updates="constant" val="False" valType="bool"/>
+        <Param name="syncScreenRefresh" updates="constant" val="True" valType="bool"/>
+      </KeyboardComponent>
+      <TextComponent name="text_6">
+        <Param name="color" updates="constant" val="white" valType="color"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flip" updates="constant" val="None" valType="str"/>
+        <Param name="font" updates="constant" val="Open Sans" valType="str"/>
+        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.05" valType="num"/>
+        <Param name="name" updates="None" val="text_6" valType="code"/>
+        <Param name="opacity" updates="constant" val="" valType="num"/>
+        <Param name="ori" updates="constant" val="0" valType="num"/>
+        <Param name="pos" updates="constant" val="(0, 0.4)" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="text" updates="set every repeat" val="choose the image you have previously seen" valType="str"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="num"/>
+      </TextComponent>
+    </Routine>
+    <Routine name="encoding_demo">
+      <ImageComponent name="image_0_demo">
+        <Param name="color" updates="constant" val="$[1,1,1]" valType="color"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flipHoriz" updates="constant" val="False" valType="bool"/>
+        <Param name="flipVert" updates="constant" val="False" valType="bool"/>
+        <Param name="image" updates="set every repeat" val="$background_0" valType="file"/>
+        <Param name="interpolate" updates="constant" val="linear" valType="str"/>
+        <Param name="mask" updates="constant" val="" valType="str"/>
+        <Param name="name" updates="None" val="image_0_demo" valType="code"/>
+        <Param name="opacity" updates="constant" val="" valType="num"/>
+        <Param name="ori" updates="constant" val="0" valType="num"/>
+        <Param name="pos" updates="constant" val="(0, 0)" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="size" updates="constant" val="(0.5, 0.5)" valType="list"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.5" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="0.2" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="texture resolution" updates="constant" val="128" valType="num"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+      </ImageComponent>
+      <ImageComponent name="image_1_demo">
+        <Param name="color" updates="constant" val="$[1,1,1]" valType="color"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flipHoriz" updates="constant" val="False" valType="bool"/>
+        <Param name="flipVert" updates="constant" val="False" valType="bool"/>
+        <Param name="image" updates="set every repeat" val="$background_1" valType="file"/>
+        <Param name="interpolate" updates="constant" val="linear" valType="str"/>
+        <Param name="mask" updates="constant" val="" valType="str"/>
+        <Param name="name" updates="None" val="image_1_demo" valType="code"/>
+        <Param name="opacity" updates="constant" val="" valType="num"/>
+        <Param name="ori" updates="constant" val="0" valType="num"/>
+        <Param name="pos" updates="constant" val="(0, 0)" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="size" updates="constant" val="(0.5, 0.5)" valType="list"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.7" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="0.2" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="texture resolution" updates="constant" val="128" valType="num"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+      </ImageComponent>
+      <ImageComponent name="image_2_demo">
+        <Param name="color" updates="constant" val="$[1,1,1]" valType="color"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flipHoriz" updates="constant" val="False" valType="bool"/>
+        <Param name="flipVert" updates="constant" val="False" valType="bool"/>
+        <Param name="image" updates="set every repeat" val="$background_2" valType="file"/>
+        <Param name="interpolate" updates="constant" val="linear" valType="str"/>
+        <Param name="mask" updates="constant" val="" valType="str"/>
+        <Param name="name" updates="None" val="image_2_demo" valType="code"/>
+        <Param name="opacity" updates="constant" val="" valType="num"/>
+        <Param name="ori" updates="constant" val="0" valType="num"/>
+        <Param name="pos" updates="constant" val="(0, 0)" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="size" updates="constant" val="(0.5, 0.5)" valType="list"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.9" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="0.2" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="texture resolution" updates="constant" val="128" valType="num"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+      </ImageComponent>
+      <ImageComponent name="image_3_demo">
+        <Param name="color" updates="constant" val="$[1,1,1]" valType="color"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flipHoriz" updates="constant" val="False" valType="bool"/>
+        <Param name="flipVert" updates="constant" val="False" valType="bool"/>
+        <Param name="image" updates="set every repeat" val="$background_3" valType="file"/>
+        <Param name="interpolate" updates="constant" val="linear" valType="str"/>
+        <Param name="mask" updates="constant" val="" valType="str"/>
+        <Param name="name" updates="None" val="image_3_demo" valType="code"/>
+        <Param name="opacity" updates="constant" val="" valType="num"/>
+        <Param name="ori" updates="constant" val="0" valType="num"/>
+        <Param name="pos" updates="constant" val="(0, 0)" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="size" updates="constant" val="(0.5, 0.5)" valType="list"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="1.1" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="0.2" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="texture resolution" updates="constant" val="128" valType="num"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+      </ImageComponent>
+      <ImageComponent name="image_4_demo">
+        <Param name="color" updates="constant" val="$[1,1,1]" valType="color"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flipHoriz" updates="constant" val="False" valType="bool"/>
+        <Param name="flipVert" updates="constant" val="False" valType="bool"/>
+        <Param name="image" updates="set every repeat" val="$background_4" valType="file"/>
+        <Param name="interpolate" updates="constant" val="linear" valType="str"/>
+        <Param name="mask" updates="constant" val="" valType="str"/>
+        <Param name="name" updates="None" val="image_4_demo" valType="code"/>
+        <Param name="opacity" updates="constant" val="" valType="num"/>
+        <Param name="ori" updates="constant" val="0" valType="num"/>
+        <Param name="pos" updates="constant" val="(0, 0)" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="size" updates="constant" val="(0.5, 0.5)" valType="list"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="1.3" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="0.2" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="texture resolution" updates="constant" val="128" valType="num"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+      </ImageComponent>
+      <ImageComponent name="image_5_demo">
+        <Param name="color" updates="constant" val="$[1,1,1]" valType="color"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flipHoriz" updates="constant" val="False" valType="bool"/>
+        <Param name="flipVert" updates="constant" val="False" valType="bool"/>
+        <Param name="image" updates="set every repeat" val="$background_5" valType="file"/>
+        <Param name="interpolate" updates="constant" val="linear" valType="str"/>
+        <Param name="mask" updates="constant" val="" valType="str"/>
+        <Param name="name" updates="None" val="image_5_demo" valType="code"/>
+        <Param name="opacity" updates="constant" val="" valType="num"/>
+        <Param name="ori" updates="constant" val="0" valType="num"/>
+        <Param name="pos" updates="constant" val="(0, 0)" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="size" updates="constant" val="(0.5, 0.5)" valType="list"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="1.5" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="0.2" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="texture resolution" updates="constant" val="128" valType="num"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+      </ImageComponent>
+      <TextComponent name="blank_screen_demo">
+        <Param name="color" updates="constant" val="white" valType="color"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flip" updates="constant" val="None" valType="str"/>
+        <Param name="font" updates="constant" val="Open Sans" valType="str"/>
+        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.1" valType="num"/>
+        <Param name="name" updates="None" val="blank_screen_demo" valType="code"/>
+        <Param name="opacity" updates="constant" val="" valType="num"/>
+        <Param name="ori" updates="constant" val="0" valType="num"/>
+        <Param name="pos" updates="constant" val="(0, 0)" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="1.7" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="1.0" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="text" updates="set every repeat" val="" valType="str"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="num"/>
+      </TextComponent>
+      <TextComponent name="fixation_demo">
+        <Param name="color" updates="constant" val="white" valType="color"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flip" updates="constant" val="None" valType="str"/>
+        <Param name="font" updates="constant" val="Open Sans" valType="str"/>
+        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.1" valType="num"/>
+        <Param name="name" updates="None" val="fixation_demo" valType="code"/>
+        <Param name="opacity" updates="constant" val="" valType="num"/>
+        <Param name="ori" updates="constant" val="0" valType="num"/>
+        <Param name="pos" updates="constant" val="(0, 0)" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="0.5" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="text" updates="constant" val="+" valType="str"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="num"/>
+      </TextComponent>
+    </Routine>
+    <Routine name="test_demo">
+      <ImageComponent name="image_left_demo">
+        <Param name="color" updates="constant" val="$[1,1,1]" valType="color"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flipHoriz" updates="constant" val="False" valType="bool"/>
+        <Param name="flipVert" updates="constant" val="False" valType="bool"/>
+        <Param name="image" updates="set every repeat" val="$image1" valType="file"/>
+        <Param name="interpolate" updates="constant" val="linear" valType="str"/>
+        <Param name="mask" updates="constant" val="" valType="str"/>
+        <Param name="name" updates="None" val="image_left_demo" valType="code"/>
+        <Param name="opacity" updates="constant" val="" valType="num"/>
+        <Param name="ori" updates="constant" val="0" valType="num"/>
+        <Param name="pos" updates="constant" val="(-0.3, 0)" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="size" updates="constant" val="(0.5, 0.5)" valType="list"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="texture resolution" updates="constant" val="128" valType="num"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+      </ImageComponent>
+      <ImageComponent name="image_right_demo">
+        <Param name="color" updates="constant" val="$[1,1,1]" valType="color"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flipHoriz" updates="constant" val="False" valType="bool"/>
+        <Param name="flipVert" updates="constant" val="False" valType="bool"/>
+        <Param name="image" updates="set every repeat" val="$image2" valType="file"/>
+        <Param name="interpolate" updates="constant" val="linear" valType="str"/>
+        <Param name="mask" updates="constant" val="" valType="str"/>
+        <Param name="name" updates="None" val="image_right_demo" valType="code"/>
+        <Param name="opacity" updates="constant" val="" valType="num"/>
+        <Param name="ori" updates="constant" val="0" valType="num"/>
+        <Param name="pos" updates="constant" val="(0.3, 0)" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="size" updates="constant" val="(0.5, 0.5)" valType="list"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="texture resolution" updates="constant" val="128" valType="num"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+      </ImageComponent>
+      <KeyboardComponent name="demo_test_key_resp">
+        <Param name="allowedKeys" updates="constant" val="'left','right'" valType="list"/>
+        <Param name="correctAns" updates="constant" val="" valType="str"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="discard previous" updates="constant" val="True" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="forceEndRoutine" updates="constant" val="True" valType="bool"/>
+        <Param name="name" updates="None" val="demo_test_key_resp" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="store" updates="constant" val="last key" valType="str"/>
+        <Param name="storeCorrect" updates="constant" val="False" valType="bool"/>
+        <Param name="syncScreenRefresh" updates="constant" val="True" valType="bool"/>
+      </KeyboardComponent>
+      <TextComponent name="text_4">
+        <Param name="color" updates="constant" val="white" valType="color"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flip" updates="constant" val="None" valType="str"/>
+        <Param name="font" updates="constant" val="Open Sans" valType="str"/>
+        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.05" valType="num"/>
+        <Param name="name" updates="None" val="text_4" valType="code"/>
+        <Param name="opacity" updates="constant" val="" valType="num"/>
+        <Param name="ori" updates="constant" val="0" valType="num"/>
+        <Param name="pos" updates="constant" val="(0, 0.4)" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="text" updates="set every repeat" val="choose the image you have previously seen" valType="str"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="num"/>
+      </TextComponent>
+    </Routine>
+    <Routine name="instructions_after_part1">
+      <TextComponent name="text_2">
+        <Param name="color" updates="constant" val="white" valType="color"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flip" updates="constant" val="None" valType="str"/>
+        <Param name="font" updates="constant" val="Open Sans" valType="str"/>
+        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.05" valType="num"/>
+        <Param name="name" updates="None" val="text_2" valType="code"/>
+        <Param name="opacity" updates="constant" val="" valType="num"/>
+        <Param name="ori" updates="constant" val="0" valType="num"/>
+        <Param name="pos" updates="constant" val="(0, 0)" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="text" updates="constant" val="Now we will begin part 2. &amp;#10;&amp;#10;&amp;#10;Reminder: You are asked to rate the similarity between pairs of images. Rate the extent of the similarity by selecting the relevant score on the similarity scale at the bottom of the screen using the mouse. &amp;#10;&amp;#10;&amp;#10;Judge the similarity of these images on the scale of:&amp;#10;&amp;#10;1 - not similar&amp;#10;9 - very similar&amp;#10;&amp;#10;Use the mouse to select the value on the scale.&amp;#10;&amp;#10;press the spacebar to begin. " valType="str"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="num"/>
+      </TextComponent>
+      <KeyboardComponent name="key_resp_4">
+        <Param name="allowedKeys" updates="constant" val="'space'" valType="list"/>
+        <Param name="correctAns" updates="constant" val="" valType="str"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="discard previous" updates="constant" val="True" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="forceEndRoutine" updates="constant" val="True" valType="bool"/>
+        <Param name="name" updates="None" val="key_resp_4" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="store" updates="constant" val="last key" valType="str"/>
+        <Param name="storeCorrect" updates="constant" val="False" valType="bool"/>
+        <Param name="syncScreenRefresh" updates="constant" val="True" valType="bool"/>
+      </KeyboardComponent>
+    </Routine>
+    <Routine name="part2_exp">
+      <ImageComponent name="image_left_part2">
+        <Param name="color" updates="constant" val="$[1,1,1]" valType="color"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flipHoriz" updates="constant" val="False" valType="bool"/>
+        <Param name="flipVert" updates="constant" val="False" valType="bool"/>
+        <Param name="image" updates="set every repeat" val="$image1" valType="file"/>
+        <Param name="interpolate" updates="constant" val="linear" valType="str"/>
+        <Param name="mask" updates="constant" val="" valType="str"/>
+        <Param name="name" updates="None" val="image_left_part2" valType="code"/>
+        <Param name="opacity" updates="constant" val="" valType="num"/>
+        <Param name="ori" updates="constant" val="0" valType="num"/>
+        <Param name="pos" updates="constant" val="(-0.3, 0)" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="size" updates="constant" val="(0.5, 0.5)" valType="list"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="texture resolution" updates="constant" val="128" valType="num"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+      </ImageComponent>
+      <ImageComponent name="image_right_part2">
+        <Param name="color" updates="constant" val="$[1,1,1]" valType="color"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flipHoriz" updates="constant" val="False" valType="bool"/>
+        <Param name="flipVert" updates="constant" val="False" valType="bool"/>
+        <Param name="image" updates="set every repeat" val="$image2" valType="file"/>
+        <Param name="interpolate" updates="constant" val="linear" valType="str"/>
+        <Param name="mask" updates="constant" val="" valType="str"/>
+        <Param name="name" updates="None" val="image_right_part2" valType="code"/>
+        <Param name="opacity" updates="constant" val="" valType="num"/>
+        <Param name="ori" updates="constant" val="0" valType="num"/>
+        <Param name="pos" updates="constant" val="(0.3, 0)" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="size" updates="constant" val="(0.5, 0.5)" valType="list"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="texture resolution" updates="constant" val="128" valType="num"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+      </ImageComponent>
+      <SliderComponent name="slider_part2">
+        <Param name="borderColor" updates="constant" val="White" valType="color"/>
+        <Param name="color" updates="constant" val="LightGray" valType="color"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="fillColor" updates="constant" val="Red" valType="color"/>
+        <Param name="flip" updates="constant" val="False" valType="bool"/>
+        <Param name="font" updates="constant" val="Open Sans" valType="str"/>
+        <Param name="forceEndRoutine" updates="constant" val="True" valType="bool"/>
+        <Param name="granularity" updates="constant" val="0" valType="num"/>
+        <Param name="initVal" updates="None" val="" valType="code"/>
+        <Param name="labels" updates="constant" val="[&quot;1 \nnot similar&quot;, 2, 3, 4, 5, 6, 7, 8, &quot;9 \nvery similar&quot;]" valType="list"/>
+        <Param name="letterHeight" updates="constant" val="0.03" valType="num"/>
+        <Param name="name" updates="None" val="slider_part2" valType="code"/>
+        <Param name="opacity" updates="constant" val="" valType="num"/>
+        <Param name="ori" updates="constant" val="0" valType="num"/>
+        <Param name="pos" updates="constant" val="(0, -0.32)" valType="list"/>
+        <Param name="readOnly" updates="constant" val="False" valType="bool"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="size" updates="constant" val="(1.0, 0.05)" valType="list"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="condition" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="storeHistory" updates="constant" val="False" valType="bool"/>
+        <Param name="storeRating" updates="constant" val="True" valType="bool"/>
+        <Param name="storeRatingTime" updates="constant" val="True" valType="bool"/>
+        <Param name="styleTweaks" updates="constant" val="()" valType="list"/>
+        <Param name="styles" updates="constant" val="rating" valType="str"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="ticks" updates="constant" val="(1,2,3,4,5,6,7,8,9)" valType="list"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+      </SliderComponent>
+      <TextComponent name="text_5">
+        <Param name="color" updates="constant" val="white" valType="color"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flip" updates="constant" val="None" valType="str"/>
+        <Param name="font" updates="constant" val="Open Sans" valType="str"/>
+        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.05" valType="num"/>
+        <Param name="name" updates="None" val="text_5" valType="code"/>
+        <Param name="opacity" updates="constant" val="" valType="num"/>
+        <Param name="ori" updates="constant" val="0" valType="num"/>
+        <Param name="pos" updates="constant" val="(0, 0.4)" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="text" updates="set every repeat" val="how similar are the images?" valType="str"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="num"/>
+      </TextComponent>
+    </Routine>
+    <Routine name="last_slide">
+      <KeyboardComponent name="key_resp_last_slide">
+        <Param name="allowedKeys" updates="constant" val="'space'" valType="list"/>
+        <Param name="correctAns" updates="constant" val="" valType="str"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="discard previous" updates="constant" val="True" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="forceEndRoutine" updates="constant" val="True" valType="bool"/>
+        <Param name="name" updates="None" val="key_resp_last_slide" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="store" updates="constant" val="last key" valType="str"/>
+        <Param name="storeCorrect" updates="constant" val="False" valType="bool"/>
+        <Param name="syncScreenRefresh" updates="constant" val="True" valType="bool"/>
+      </KeyboardComponent>
+      <TextComponent name="text_last_slide">
+        <Param name="color" updates="constant" val="white" valType="color"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flip" updates="constant" val="None" valType="str"/>
+        <Param name="font" updates="constant" val="Open Sans" valType="str"/>
+        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.05" valType="num"/>
+        <Param name="name" updates="None" val="text_last_slide" valType="code"/>
+        <Param name="opacity" updates="constant" val="" valType="num"/>
+        <Param name="ori" updates="constant" val="0" valType="num"/>
+        <Param name="pos" updates="constant" val="(0, 0)" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="text" updates="constant" val="Thank you!&amp;#10;&amp;#10;Your credit code is:&amp;#10;&amp;#10;&amp;#10;‘tchcugsi’&amp;#10;&amp;#10;&amp;#10;Report it in the M-turk platform. &amp;#10;&amp;#10;&amp;#10;Please press the space bar to finish" valType="str"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="num"/>
+      </TextComponent>
+    </Routine>
+  </Routines>
+  <Flow>
+    <Routine name="consent_form"/>
+    <Routine name="instructions_1"/>
+    <LoopInitiator loopType="TrialHandler" name="demo_loops">
+      <Param name="Selected rows" updates="None" val="" valType="str"/>
+      <Param name="conditions" updates="None" val="[{'target': 'flower1.jpg', 'image1': 'flower1.jpg', 'image2': 'flower1_pair.jpg', 'correct': 'left', 'background_0': 'leaf3.jpg', 'background_1': 'trail1.jpg', 'background_2': 'flower1.jpg', 'background_3': 'bird1.jpg', 'background_4': 'tree3.jpg', 'background_5': 'fence4.jpg', 'target_index': 2}, {'target': 'leaf2.jpg', 'image1': 'leaf1.jpg', 'image2': 'leaf2.jpg', 'correct': 'right', 'background_0': 'trail2.jpg', 'background_1': 'leaf2.jpg', 'background_2': 'bird2.jpg', 'background_3': 'tree2.jpg', 'background_4': 'fence3.jpg', 'background_5': 'flower2.jpg', 'target_index': 1}, {'target': 'fence1.jpg', 'image1': 'fence1.jpg', 'image2': 'fence2.jpg', 'correct': 'left', 'background_0': 'tree1.jpg', 'background_1': 'bird3.jpg', 'background_2': 'trail3.jpg', 'background_3': 'fence1.jpg', 'background_4': 'leaf4.jpg', 'background_5': 'flower3.jpg', 'target_index': 3}]" valType="str"/>
+      <Param name="conditionsFile" updates="None" val="demo_encoding.xlsx" valType="file"/>
+      <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
+      <Param name="isTrials" updates="None" val="True" valType="bool"/>
+      <Param name="loopType" updates="None" val="sequential" valType="str"/>
+      <Param name="nReps" updates="None" val="1" valType="num"/>
+      <Param name="name" updates="None" val="demo_loops" valType="code"/>
+      <Param name="random seed" updates="None" val="" valType="code"/>
+    </LoopInitiator>
+    <Routine name="encoding_demo"/>
+    <Routine name="test_demo"/>
+    <LoopTerminator name="demo_loops"/>
+    <Routine name="instructions_before_exp"/>
+    <LoopInitiator loopType="TrialHandler" name="exp_loops">
+      <Param name="Selected rows" updates="None" val="" valType="str"/>
+      <Param name="conditions" updates="None" val="[OrderedDict([('target', 'badlands_113.jpg'), ('selected_dist', 'badlands_203.jpg'), ('distractor_level', 1), ('image1', 'badlands_203.jpg'), ('image2', 'badlands_113.jpg'), ('correct', 'right'), ('category', 'badlands'), ('background_0', 'golf_course_166.jpg'), ('background_1', 'badlands_113.jpg'), ('background_2', 'bridge_39.jpg'), ('background_3', 'highway_354.jpg'), ('background_4', 'mountain_226.jpg'), ('background_5', 'playground_84.jpg'), ('target_index', 1)]), OrderedDict([('target', 'badlands_222.jpg'), ('selected_dist', 'badlands_62.jpg'), ('distractor_level', 1), ('image1', 'badlands_222.jpg'), ('image2', 'badlands_62.jpg'), ('correct', 'left'), ('category', 'badlands'), ('background_0', 'golf_course_212.jpg'), ('background_1', 'mountain_206.jpg'), ('background_2', 'bridge_224.jpg'), ('background_3', 'badlands_222.jpg'), ('background_4', 'highway_28.jpg'), ('background_5', 'playground_181.jpg'), ('target_index', 3)]), OrderedDict([('target', 'highway_359.jpg'), ('selected_dist', 'highway_379.jpg'), ('distractor_level', 1), ('image1', 'highway_359.jpg'), ('image2', 'highway_379.jpg'), ('correct', 'left'), ('category', 'highway'), ('background_0', 'highway_359.jpg'), ('background_1', 'mountain_91.jpg'), ('background_2', 'golf_course_23.jpg'), ('background_3', 'badlands_166.jpg'), ('background_4', 'bridge_234.jpg'), ('background_5', 'playground_173.jpg'), ('target_index', 0)]), OrderedDict([('target', 'mountain_222.jpg'), ('selected_dist', 'mountain_244.jpg'), ('distractor_level', 0), ('image1', 'mountain_244.jpg'), ('image2', 'mountain_222.jpg'), ('correct', 'right'), ('category', 'mountain'), ('background_0', 'badlands_150.jpg'), ('background_1', 'bridge_158.jpg'), ('background_2', 'mountain_222.jpg'), ('background_3', 'golf_course_127.jpg'), ('background_4', 'highway_78.jpg'), ('background_5', 'playground_153.jpg'), ('target_index', 2)]), OrderedDict([('target', 'bridge_172.jpg'), ('selected_dist', 'bridge_163.jpg'), ('distractor_level', 1), ('image1', 'bridge_172.jpg'), ('image2', 'bridge_163.jpg'), ('correct', 'left'), ('category', 'bridge'), ('background_0', 'highway_315.jpg'), ('background_1', 'golf_course_269.jpg'), ('background_2', 'bridge_172.jpg'), ('background_3', 'badlands_217.jpg'), ('background_4', 'mountain_290.jpg'), ('background_5', 'playground_110.jpg'), ('target_index', 2)]), OrderedDict([('target', 'playground_145.jpg'), ('selected_dist', 'playground_242.jpg'), ('distractor_level', 1), ('image1', 'playground_145.jpg'), ('image2', 'playground_242.jpg'), ('correct', 'left'), ('category', 'playground'), ('background_0', 'playground_145.jpg'), ('background_1', 'highway_3.jpg'), ('background_2', 'mountain_102.jpg'), ('background_3', 'golf_course_194.jpg'), ('background_4', 'badlands_60.jpg'), ('background_5', 'bridge_118.jpg'), ('target_index', 0)]), OrderedDict([('target', 'highway_245.jpg'), ('selected_dist', 'highway_206.jpg'), ('distractor_level', 1), ('image1', 'highway_206.jpg'), ('image2', 'highway_245.jpg'), ('correct', 'right'), ('category', 'highway'), ('background_0', 'playground_227.jpg'), ('background_1', 'highway_245.jpg'), ('background_2', 'golf_course_333.jpg'), ('background_3', 'bridge_179.jpg'), ('background_4', 'badlands_44.jpg'), ('background_5', 'mountain_228.jpg'), ('target_index', 1)]), OrderedDict([('target', 'mountain_293.jpg'), ('selected_dist', 'mountain_72.jpg'), ('distractor_level', 0), ('image1', 'mountain_293.jpg'), ('image2', 'mountain_72.jpg'), ('correct', 'left'), ('category', 'mountain'), ('background_0', 'mountain_293.jpg'), ('background_1', 'badlands_175.jpg'), ('background_2', 'golf_course_328.jpg'), ('background_3', 'bridge_110.jpg'), ('background_4', 'playground_54.jpg'), ('background_5', 'highway_83.jpg'), ('target_index', 0)]), OrderedDict([('target', 'bridge_146.jpg'), ('selected_dist', 'bridge_27.jpg'), ('distractor_level', 0), ('image1', 'bridge_146.jpg'), ('image2', 'bridge_27.jpg'), ('correct', 'left'), ('category', 'bridge'), ('background_0', 'badlands_104.jpg'), ('background_1', 'bridge_146.jpg'), ('background_2', 'mountain_88.jpg'), ('background_3', 'playground_204.jpg'), ('background_4', 'golf_course_288.jpg'), ('background_5', 'highway_147.jpg'), ('target_index', 1)]), OrderedDict([('target', 'playground_257.jpg'), ('selected_dist', 'playground_214.jpg'), ('distractor_level', 0), ('image1', 'playground_214.jpg'), ('image2', 'playground_257.jpg'), ('correct', 'right'), ('category', 'playground'), ('background_0', 'badlands_46.jpg'), ('background_1', 'highway_319.jpg'), ('background_2', 'playground_257.jpg'), ('background_3', 'golf_course_133.jpg'), ('background_4', 'bridge_96.jpg'), ('background_5', 'mountain_137.jpg'), ('target_index', 2)]), OrderedDict([('target', 'mountain_230.jpg'), ('selected_dist', 'mountain_97.jpg'), ('distractor_level', 1), ('image1', 'mountain_97.jpg'), ('image2', 'mountain_230.jpg'), ('correct', 'right'), ('category', 'mountain'), ('background_0', 'badlands_105.jpg'), ('background_1', 'golf_course_128.jpg'), ('background_2', 'highway_31.jpg'), ('background_3', 'playground_191.jpg'), ('background_4', 'mountain_230.jpg'), ('background_5', 'bridge_156.jpg'), ('target_index', 4)]), OrderedDict([('target', 'playground_10.jpg'), ('selected_dist', 'playground_122.jpg'), ('distractor_level', 0), ('image1', 'playground_122.jpg'), ('image2', 'playground_10.jpg'), ('correct', 'right'), ('category', 'playground'), ('background_0', 'badlands_171.jpg'), ('background_1', 'golf_course_72.jpg'), ('background_2', 'bridge_173.jpg'), ('background_3', 'playground_10.jpg'), ('background_4', 'highway_107.jpg'), ('background_5', 'mountain_40.jpg'), ('target_index', 3)]), OrderedDict([('target', 'highway_177.jpg'), ('selected_dist', 'highway_87.jpg'), ('distractor_level', 0), ('image1', 'highway_87.jpg'), ('image2', 'highway_177.jpg'), ('correct', 'right'), ('category', 'highway'), ('background_0', 'mountain_62.jpg'), ('background_1', 'golf_course_162.jpg'), ('background_2', 'bridge_133.jpg'), ('background_3', 'highway_177.jpg'), ('background_4', 'playground_74.jpg'), ('background_5', 'badlands_55.jpg'), ('target_index', 3)]), OrderedDict([('target', 'badlands_21.jpg'), ('selected_dist', 'badlands_98.jpg'), ('distractor_level', 1), ('image1', 'badlands_98.jpg'), ('image2', 'badlands_21.jpg'), ('correct', 'right'), ('category', 'badlands'), ('background_0', 'bridge_136.jpg'), ('background_1', 'golf_course_338.jpg'), ('background_2', 'highway_191.jpg'), ('background_3', 'mountain_198.jpg'), ('background_4', 'badlands_21.jpg'), ('background_5', 'playground_55.jpg'), ('target_index', 4)]), OrderedDict([('target', 'playground_131.jpg'), ('selected_dist', 'playground_164.jpg'), ('distractor_level', 1), ('image1', 'playground_164.jpg'), ('image2', 'playground_131.jpg'), ('correct', 'right'), ('category', 'playground'), ('background_0', 'mountain_306.jpg'), ('background_1', 'playground_131.jpg'), ('background_2', 'bridge_124.jpg'), ('background_3', 'golf_course_102.jpg'), ('background_4', 'badlands_216.jpg'), ('background_5', 'highway_335.jpg'), ('target_index', 1)]), OrderedDict([('target', 'bridge_256.jpg'), ('selected_dist', 'bridge_211.jpg'), ('distractor_level', 1), ('image1', 'bridge_211.jpg'), ('image2', 'bridge_256.jpg'), ('correct', 'right'), ('category', 'bridge'), ('background_0', 'golf_course_196.jpg'), ('background_1', 'mountain_151.jpg'), ('background_2', 'bridge_256.jpg'), ('background_3', 'playground_26.jpg'), ('background_4', 'badlands_97.jpg'), ('background_5', 'highway_265.jpg'), ('target_index', 2)]), OrderedDict([('target', 'badlands_52.jpg'), ('selected_dist', 'badlands_63.jpg'), ('distractor_level', 1), ('image1', 'badlands_63.jpg'), ('image2', 'badlands_52.jpg'), ('correct', 'right'), ('category', 'badlands'), ('background_0', 'badlands_52.jpg'), ('background_1', 'bridge_79.jpg'), ('background_2', 'golf_course_41.jpg'), ('background_3', 'highway_18.jpg'), ('background_4', 'mountain_233.jpg'), ('background_5', 'playground_85.jpg'), ('target_index', 0)]), OrderedDict([('target', 'badlands_23.jpg'), ('selected_dist', 'badlands_114.jpg'), ('distractor_level', 0), ('image1', 'badlands_114.jpg'), ('image2', 'badlands_23.jpg'), ('correct', 'right'), ('category', 'badlands'), ('background_0', 'badlands_23.jpg'), ('background_1', 'golf_course_67.jpg'), ('background_2', 'bridge_117.jpg'), ('background_3', 'mountain_187.jpg'), ('background_4', 'playground_184.jpg'), ('background_5', 'highway_399.jpg'), ('target_index', 0)]), OrderedDict([('target', 'mountain_101.jpg'), ('selected_dist', 'mountain_171.jpg'), ('distractor_level', 0), ('image1', 'mountain_171.jpg'), ('image2', 'mountain_101.jpg'), ('correct', 'right'), ('category', 'mountain'), ('background_0', 'golf_course_313.jpg'), ('background_1', 'mountain_101.jpg'), ('background_2', 'badlands_26.jpg'), ('background_3', 'bridge_142.jpg'), ('background_4', 'playground_98.jpg'), ('background_5', 'highway_9.jpg'), ('target_index', 1)]), OrderedDict([('target', 'badlands_221.jpg'), ('selected_dist', 'badlands_115.jpg'), ('distractor_level', 0), ('image1', 'badlands_115.jpg'), ('image2', 'badlands_221.jpg'), ('correct', 'right'), ('category', 'badlands'), ('background_0', 'highway_81.jpg'), ('background_1', 'bridge_86.jpg'), ('background_2', 'golf_course_291.jpg'), ('background_3', 'playground_16.jpg'), ('background_4', 'badlands_221.jpg'), ('background_5', 'mountain_45.jpg'), ('target_index', 4)]), OrderedDict([('target', 'mountain_154.jpg'), ('selected_dist', 'mountain_95.jpg'), ('distractor_level', 1), ('image1', 'mountain_95.jpg'), ('image2', 'mountain_154.jpg'), ('correct', 'right'), ('category', 'mountain'), ('background_0', 'playground_6.jpg'), ('background_1', 'mountain_154.jpg'), ('background_2', 'golf_course_342.jpg'), ('background_3', 'highway_101.jpg'), ('background_4', 'bridge_164.jpg'), ('background_5', 'badlands_72.jpg'), ('target_index', 1)]), OrderedDict([('target', 'bridge_91.jpg'), ('selected_dist', 'bridge_253.jpg'), ('distractor_level', 0), ('image1', 'bridge_253.jpg'), ('image2', 'bridge_91.jpg'), ('correct', 'right'), ('category', 'bridge'), ('background_0', 'highway_15.jpg'), ('background_1', 'badlands_121.jpg'), ('background_2', 'bridge_91.jpg'), ('background_3', 'golf_course_171.jpg'), ('background_4', 'playground_162.jpg'), ('background_5', 'mountain_38.jpg'), ('target_index', 2)]), OrderedDict([('target', 'highway_273.jpg'), ('selected_dist', 'highway_171.jpg'), ('distractor_level', 1), ('image1', 'highway_171.jpg'), ('image2', 'highway_273.jpg'), ('correct', 'right'), ('category', 'highway'), ('background_0', 'bridge_63.jpg'), ('background_1', 'golf_course_252.jpg'), ('background_2', 'highway_273.jpg'), ('background_3', 'playground_30.jpg'), ('background_4', 'badlands_47.jpg'), ('background_5', 'mountain_34.jpg'), ('target_index', 2)]), OrderedDict([('target', 'playground_60.jpg'), ('selected_dist', 'playground_268.jpg'), ('distractor_level', 0), ('image1', 'playground_60.jpg'), ('image2', 'playground_268.jpg'), ('correct', 'left'), ('category', 'playground'), ('background_0', 'badlands_79.jpg'), ('background_1', 'playground_60.jpg'), ('background_2', 'golf_course_56.jpg'), ('background_3', 'bridge_212.jpg'), ('background_4', 'highway_226.jpg'), ('background_5', 'mountain_190.jpg'), ('target_index', 1)]), OrderedDict([('target', 'golf_course_217.jpg'), ('selected_dist', 'golf_course_262.jpg'), ('distractor_level', 1), ('image1', 'golf_course_262.jpg'), ('image2', 'golf_course_217.jpg'), ('correct', 'right'), ('category', 'golf'), ('background_0', 'playground_14.jpg'), ('background_1', 'mountain_87.jpg'), ('background_2', 'bridge_167.jpg'), ('background_3', 'highway_193.jpg'), ('background_4', 'golf_course_217.jpg'), ('background_5', 'badlands_16.jpg'), ('target_index', 4)]), OrderedDict([('target', 'playground_240.jpg'), ('selected_dist', 'playground_40.jpg'), ('distractor_level', 1), ('image1', 'playground_240.jpg'), ('image2', 'playground_40.jpg'), ('correct', 'left'), ('category', 'playground'), ('background_0', 'highway_269.jpg'), ('background_1', 'badlands_129.jpg'), ('background_2', 'mountain_176.jpg'), ('background_3', 'golf_course_300.jpg'), ('background_4', 'playground_240.jpg'), ('background_5', 'bridge_20.jpg'), ('target_index', 4)]), OrderedDict([('target', 'bridge_202.jpg'), ('selected_dist', 'bridge_31.jpg'), ('distractor_level', 0), ('image1', 'bridge_202.jpg'), ('image2', 'bridge_31.jpg'), ('correct', 'left'), ('category', 'bridge'), ('background_0', 'bridge_202.jpg'), ('background_1', 'mountain_249.jpg'), ('background_2', 'golf_course_181.jpg'), ('background_3', 'highway_90.jpg'), ('background_4', 'playground_248.jpg'), ('background_5', 'badlands_106.jpg'), ('target_index', 0)]), OrderedDict([('target', 'golf_course_331.jpg'), ('selected_dist', 'golf_course_26.jpg'), ('distractor_level', 1), ('image1', 'golf_course_331.jpg'), ('image2', 'golf_course_26.jpg'), ('correct', 'left'), ('category', 'golf'), ('background_0', 'playground_47.jpg'), ('background_1', 'golf_course_331.jpg'), ('background_2', 'mountain_180.jpg'), ('background_3', 'badlands_200.jpg'), ('background_4', 'highway_17.jpg'), ('background_5', 'bridge_144.jpg'), ('target_index', 1)]), OrderedDict([('target', 'badlands_70.jpg'), ('selected_dist', 'badlands_102.jpg'), ('distractor_level', 0), ('image1', 'badlands_70.jpg'), ('image2', 'badlands_102.jpg'), ('correct', 'left'), ('category', 'badlands'), ('background_0', 'golf_course_316.jpg'), ('background_1', 'playground_7.jpg'), ('background_2', 'badlands_70.jpg'), ('background_3', 'bridge_228.jpg'), ('background_4', 'highway_178.jpg'), ('background_5', 'mountain_22.jpg'), ('target_index', 2)]), OrderedDict([('target', 'highway_156.jpg'), ('selected_dist', 'highway_293.jpg'), ('distractor_level', 1), ('image1', 'highway_293.jpg'), ('image2', 'highway_156.jpg'), ('correct', 'right'), ('category', 'highway'), ('background_0', 'highway_156.jpg'), ('background_1', 'mountain_250.jpg'), ('background_2', 'golf_course_61.jpg'), ('background_3', 'playground_42.jpg'), ('background_4', 'bridge_64.jpg'), ('background_5', 'badlands_214.jpg'), ('target_index', 0)]), OrderedDict([('target', 'golf_course_309.jpg'), ('selected_dist', 'golf_course_16.jpg'), ('distractor_level', 0), ('image1', 'golf_course_16.jpg'), ('image2', 'golf_course_309.jpg'), ('correct', 'right'), ('category', 'golf'), ('background_0', 'playground_36.jpg'), ('background_1', 'bridge_169.jpg'), ('background_2', 'golf_course_309.jpg'), ('background_3', 'badlands_10.jpg'), ('background_4', 'mountain_204.jpg'), ('background_5', 'highway_37.jpg'), ('target_index', 2)]), OrderedDict([('target', 'bridge_250.jpg'), ('selected_dist', 'bridge_134.jpg'), ('distractor_level', 0), ('image1', 'bridge_134.jpg'), ('image2', 'bridge_250.jpg'), ('correct', 'right'), ('category', 'bridge'), ('background_0', 'highway_313.jpg'), ('background_1', 'badlands_128.jpg'), ('background_2', 'bridge_250.jpg'), ('background_3', 'playground_154.jpg'), ('background_4', 'mountain_135.jpg'), ('background_5', 'golf_course_0.jpg'), ('target_index', 2)]), OrderedDict([('target', 'golf_course_214.jpg'), ('selected_dist', 'golf_course_312.jpg'), ('distractor_level', 0), ('image1', 'golf_course_312.jpg'), ('image2', 'golf_course_214.jpg'), ('correct', 'right'), ('category', 'golf'), ('background_0', 'mountain_43.jpg'), ('background_1', 'bridge_52.jpg'), ('background_2', 'playground_126.jpg'), ('background_3', 'golf_course_214.jpg'), ('background_4', 'badlands_120.jpg'), ('background_5', 'highway_274.jpg'), ('target_index', 3)]), OrderedDict([('target', 'playground_219.jpg'), ('selected_dist', 'playground_205.jpg'), ('distractor_level', 1), ('image1', 'playground_219.jpg'), ('image2', 'playground_205.jpg'), ('correct', 'left'), ('category', 'playground'), ('background_0', 'playground_219.jpg'), ('background_1', 'mountain_146.jpg'), ('background_2', 'badlands_174.jpg'), ('background_3', 'golf_course_116.jpg'), ('background_4', 'highway_287.jpg'), ('background_5', 'bridge_68.jpg'), ('target_index', 0)]), OrderedDict([('target', 'bridge_128.jpg'), ('selected_dist', 'bridge_244.jpg'), ('distractor_level', 1), ('image1', 'bridge_128.jpg'), ('image2', 'bridge_244.jpg'), ('correct', 'left'), ('category', 'bridge'), ('background_0', 'highway_102.jpg'), ('background_1', 'playground_233.jpg'), ('background_2', 'bridge_128.jpg'), ('background_3', 'mountain_160.jpg'), ('background_4', 'badlands_20.jpg'), ('background_5', 'golf_course_238.jpg'), ('target_index', 2)]), OrderedDict([('target', 'highway_209.jpg'), ('selected_dist', 'highway_122.jpg'), ('distractor_level', 1), ('image1', 'highway_209.jpg'), ('image2', 'highway_122.jpg'), ('correct', 'left'), ('category', 'highway'), ('background_0', 'bridge_218.jpg'), ('background_1', 'badlands_9.jpg'), ('background_2', 'mountain_307.jpg'), ('background_3', 'highway_209.jpg'), ('background_4', 'golf_course_199.jpg'), ('background_5', 'playground_124.jpg'), ('target_index', 3)]), OrderedDict([('target', 'playground_144.jpg'), ('selected_dist', 'playground_137.jpg'), ('distractor_level', 0), ('image1', 'playground_137.jpg'), ('image2', 'playground_144.jpg'), ('correct', 'right'), ('category', 'playground'), ('background_0', 'playground_144.jpg'), ('background_1', 'badlands_164.jpg'), ('background_2', 'mountain_166.jpg'), ('background_3', 'highway_305.jpg'), ('background_4', 'bridge_193.jpg'), ('background_5', 'golf_course_3.jpg'), ('target_index', 0)]), OrderedDict([('target', 'mountain_110.jpg'), ('selected_dist', 'mountain_157.jpg'), ('distractor_level', 0), ('image1', 'mountain_157.jpg'), ('image2', 'mountain_110.jpg'), ('correct', 'right'), ('category', 'mountain'), ('background_0', 'bridge_24.jpg'), ('background_1', 'badlands_80.jpg'), ('background_2', 'golf_course_282.jpg'), ('background_3', 'highway_246.jpg'), ('background_4', 'mountain_110.jpg'), ('background_5', 'playground_241.jpg'), ('target_index', 4)]), OrderedDict([('target', 'highway_394.jpg'), ('selected_dist', 'highway_204.jpg'), ('distractor_level', 0), ('image1', 'highway_204.jpg'), ('image2', 'highway_394.jpg'), ('correct', 'right'), ('category', 'highway'), ('background_0', 'mountain_29.jpg'), ('background_1', 'playground_118.jpg'), ('background_2', 'highway_394.jpg'), ('background_3', 'badlands_81.jpg'), ('background_4', 'golf_course_71.jpg'), ('background_5', 'bridge_180.jpg'), ('target_index', 2)]), OrderedDict([('target', 'golf_course_87.jpg'), ('selected_dist', 'golf_course_161.jpg'), ('distractor_level', 1), ('image1', 'golf_course_161.jpg'), ('image2', 'golf_course_87.jpg'), ('correct', 'right'), ('category', 'golf'), ('background_0', 'golf_course_87.jpg'), ('background_1', 'bridge_238.jpg'), ('background_2', 'mountain_89.jpg'), ('background_3', 'playground_176.jpg'), ('background_4', 'highway_138.jpg'), ('background_5', 'badlands_213.jpg'), ('target_index', 0)]), OrderedDict([('target', 'mountain_156.jpg'), ('selected_dist', 'mountain_128.jpg'), ('distractor_level', 0), ('image1', 'mountain_156.jpg'), ('image2', 'mountain_128.jpg'), ('correct', 'left'), ('category', 'mountain'), ('background_0', 'bridge_87.jpg'), ('background_1', 'highway_308.jpg'), ('background_2', 'playground_78.jpg'), ('background_3', 'mountain_156.jpg'), ('background_4', 'badlands_183.jpg'), ('background_5', 'golf_course_219.jpg'), ('target_index', 3)]), OrderedDict([('target', 'badlands_137.jpg'), ('selected_dist', 'badlands_194.jpg'), ('distractor_level', 0), ('image1', 'badlands_137.jpg'), ('image2', 'badlands_194.jpg'), ('correct', 'left'), ('category', 'badlands'), ('background_0', 'bridge_197.jpg'), ('background_1', 'playground_235.jpg'), ('background_2', 'golf_course_179.jpg'), ('background_3', 'badlands_137.jpg'), ('background_4', 'mountain_277.jpg'), ('background_5', 'highway_53.jpg'), ('target_index', 3)]), OrderedDict([('target', 'golf_course_188.jpg'), ('selected_dist', 'golf_course_160.jpg'), ('distractor_level', 1), ('image1', 'golf_course_160.jpg'), ('image2', 'golf_course_188.jpg'), ('correct', 'right'), ('category', 'golf'), ('background_0', 'playground_49.jpg'), ('background_1', 'mountain_120.jpg'), ('background_2', 'highway_290.jpg'), ('background_3', 'golf_course_188.jpg'), ('background_4', 'bridge_4.jpg'), ('background_5', 'badlands_211.jpg'), ('target_index', 3)]), OrderedDict([('target', 'badlands_184.jpg'), ('selected_dist', 'badlands_228.jpg'), ('distractor_level', 0), ('image1', 'badlands_184.jpg'), ('image2', 'badlands_228.jpg'), ('correct', 'left'), ('category', 'badlands'), ('background_0', 'playground_141.jpg'), ('background_1', 'golf_course_138.jpg'), ('background_2', 'badlands_184.jpg'), ('background_3', 'highway_36.jpg'), ('background_4', 'bridge_62.jpg'), ('background_5', 'mountain_169.jpg'), ('target_index', 2)]), OrderedDict([('target', 'mountain_232.jpg'), ('selected_dist', 'mountain_3.jpg'), ('distractor_level', 0), ('image1', 'mountain_3.jpg'), ('image2', 'mountain_232.jpg'), ('correct', 'right'), ('category', 'mountain'), ('background_0', 'highway_148.jpg'), ('background_1', 'golf_course_202.jpg'), ('background_2', 'playground_165.jpg'), ('background_3', 'badlands_138.jpg'), ('background_4', 'mountain_232.jpg'), ('background_5', 'bridge_155.jpg'), ('target_index', 4)]), OrderedDict([('target', 'highway_93.jpg'), ('selected_dist', 'highway_85.jpg'), ('distractor_level', 0), ('image1', 'highway_93.jpg'), ('image2', 'highway_85.jpg'), ('correct', 'left'), ('category', 'highway'), ('background_0', 'bridge_225.jpg'), ('background_1', 'mountain_152.jpg'), ('background_2', 'playground_120.jpg'), ('background_3', 'highway_93.jpg'), ('background_4', 'golf_course_297.jpg'), ('background_5', 'badlands_156.jpg'), ('target_index', 3)]), OrderedDict([('target', 'highway_294.jpg'), ('selected_dist', 'highway_203.jpg'), ('distractor_level', 0), ('image1', 'highway_294.jpg'), ('image2', 'highway_203.jpg'), ('correct', 'left'), ('category', 'highway'), ('background_0', 'mountain_126.jpg'), ('background_1', 'highway_294.jpg'), ('background_2', 'golf_course_221.jpg'), ('background_3', 'badlands_201.jpg'), ('background_4', 'playground_196.jpg'), ('background_5', 'bridge_74.jpg'), ('target_index', 1)]), OrderedDict([('target', 'golf_course_195.jpg'), ('selected_dist', 'golf_course_25.jpg'), ('distractor_level', 0), ('image1', 'golf_course_25.jpg'), ('image2', 'golf_course_195.jpg'), ('correct', 'right'), ('category', 'golf'), ('background_0', 'playground_237.jpg'), ('background_1', 'highway_50.jpg'), ('background_2', 'bridge_204.jpg'), ('background_3', 'badlands_180.jpg'), ('background_4', 'golf_course_195.jpg'), ('background_5', 'mountain_302.jpg'), ('target_index', 4)]), OrderedDict([('target', 'mountain_57.jpg'), ('selected_dist', 'mountain_138.jpg'), ('distractor_level', 1), ('image1', 'mountain_138.jpg'), ('image2', 'mountain_57.jpg'), ('correct', 'right'), ('category', 'mountain'), ('background_0', 'mountain_57.jpg'), ('background_1', 'golf_course_176.jpg'), ('background_2', 'badlands_152.jpg'), ('background_3', 'bridge_126.jpg'), ('background_4', 'playground_33.jpg'), ('background_5', 'highway_33.jpg'), ('target_index', 0)]), OrderedDict([('target', 'bridge_108.jpg'), ('selected_dist', 'bridge_148.jpg'), ('distractor_level', 1), ('image1', 'bridge_108.jpg'), ('image2', 'bridge_148.jpg'), ('correct', 'left'), ('category', 'bridge'), ('background_0', 'golf_course_226.jpg'), ('background_1', 'badlands_125.jpg'), ('background_2', 'highway_383.jpg'), ('background_3', 'mountain_35.jpg'), ('background_4', 'bridge_108.jpg'), ('background_5', 'playground_63.jpg'), ('target_index', 4)]), OrderedDict([('target', 'golf_course_193.jpg'), ('selected_dist', 'golf_course_235.jpg'), ('distractor_level', 0), ('image1', 'golf_course_193.jpg'), ('image2', 'golf_course_235.jpg'), ('correct', 'left'), ('category', 'golf'), ('background_0', 'golf_course_193.jpg'), ('background_1', 'mountain_268.jpg'), ('background_2', 'badlands_185.jpg'), ('background_3', 'bridge_106.jpg'), ('background_4', 'playground_140.jpg'), ('background_5', 'highway_172.jpg'), ('target_index', 0)]), OrderedDict([('target', 'bridge_65.jpg'), ('selected_dist', 'bridge_181.jpg'), ('distractor_level', 0), ('image1', 'bridge_181.jpg'), ('image2', 'bridge_65.jpg'), ('correct', 'right'), ('category', 'bridge'), ('background_0', 'mountain_192.jpg'), ('background_1', 'golf_course_241.jpg'), ('background_2', 'playground_195.jpg'), ('background_3', 'bridge_65.jpg'), ('background_4', 'badlands_215.jpg'), ('background_5', 'highway_288.jpg'), ('target_index', 3)]), OrderedDict([('target', 'playground_76.jpg'), ('selected_dist', 'playground_72.jpg'), ('distractor_level', 1), ('image1', 'playground_72.jpg'), ('image2', 'playground_76.jpg'), ('correct', 'right'), ('category', 'playground'), ('background_0', 'bridge_35.jpg'), ('background_1', 'playground_76.jpg'), ('background_2', 'golf_course_59.jpg'), ('background_3', 'highway_141.jpg'), ('background_4', 'badlands_35.jpg'), ('background_5', 'mountain_143.jpg'), ('target_index', 1)]), OrderedDict([('target', 'golf_course_15.jpg'), ('selected_dist', 'golf_course_97.jpg'), ('distractor_level', 1), ('image1', 'golf_course_15.jpg'), ('image2', 'golf_course_97.jpg'), ('correct', 'left'), ('category', 'golf'), ('background_0', 'bridge_120.jpg'), ('background_1', 'mountain_39.jpg'), ('background_2', 'badlands_85.jpg'), ('background_3', 'golf_course_15.jpg'), ('background_4', 'highway_247.jpg'), ('background_5', 'playground_246.jpg'), ('target_index', 3)]), OrderedDict([('target', 'badlands_24.jpg'), ('selected_dist', 'badlands_3.jpg'), ('distractor_level', 0), ('image1', 'badlands_3.jpg'), ('image2', 'badlands_24.jpg'), ('correct', 'right'), ('category', 'badlands'), ('background_0', 'golf_course_42.jpg'), ('background_1', 'badlands_24.jpg'), ('background_2', 'highway_365.jpg'), ('background_3', 'bridge_112.jpg'), ('background_4', 'playground_258.jpg'), ('background_5', 'mountain_33.jpg'), ('target_index', 1)]), OrderedDict([('target', 'mountain_123.jpg'), ('selected_dist', 'mountain_189.jpg'), ('distractor_level', 1), ('image1', 'mountain_189.jpg'), ('image2', 'mountain_123.jpg'), ('correct', 'right'), ('category', 'mountain'), ('background_0', 'golf_course_137.jpg'), ('background_1', 'badlands_122.jpg'), ('background_2', 'bridge_22.jpg'), ('background_3', 'mountain_123.jpg'), ('background_4', 'playground_103.jpg'), ('background_5', 'highway_29.jpg'), ('target_index', 3)]), OrderedDict([('target', 'bridge_191.jpg'), ('selected_dist', 'bridge_75.jpg'), ('distractor_level', 1), ('image1', 'bridge_75.jpg'), ('image2', 'bridge_191.jpg'), ('correct', 'right'), ('category', 'bridge'), ('background_0', 'mountain_294.jpg'), ('background_1', 'golf_course_105.jpg'), ('background_2', 'bridge_191.jpg'), ('background_3', 'badlands_6.jpg'), ('background_4', 'highway_404.jpg'), ('background_5', 'playground_222.jpg'), ('target_index', 2)]), OrderedDict([('target', 'golf_course_78.jpg'), ('selected_dist', 'golf_course_134.jpg'), ('distractor_level', 0), ('image1', 'golf_course_134.jpg'), ('image2', 'golf_course_78.jpg'), ('correct', 'right'), ('category', 'golf'), ('background_0', 'golf_course_78.jpg'), ('background_1', 'playground_61.jpg'), ('background_2', 'badlands_173.jpg'), ('background_3', 'highway_154.jpg'), ('background_4', 'bridge_190.jpg'), ('background_5', 'mountain_41.jpg'), ('target_index', 0)]), OrderedDict([('target', 'playground_117.jpg'), ('selected_dist', 'playground_167.jpg'), ('distractor_level', 0), ('image1', 'playground_167.jpg'), ('image2', 'playground_117.jpg'), ('correct', 'right'), ('category', 'playground'), ('background_0', 'golf_course_218.jpg'), ('background_1', 'bridge_1.jpg'), ('background_2', 'playground_117.jpg'), ('background_3', 'mountain_76.jpg'), ('background_4', 'highway_251.jpg'), ('background_5', 'badlands_219.jpg'), ('target_index', 2)]), OrderedDict([('target', 'highway_415.jpg'), ('selected_dist', 'highway_174.jpg'), ('distractor_level', 1), ('image1', 'highway_174.jpg'), ('image2', 'highway_415.jpg'), ('correct', 'right'), ('category', 'highway'), ('background_0', 'highway_415.jpg'), ('background_1', 'mountain_309.jpg'), ('background_2', 'playground_256.jpg'), ('background_3', 'bridge_266.jpg'), ('background_4', 'badlands_67.jpg'), ('background_5', 'golf_course_120.jpg'), ('target_index', 0)])]" valType="str"/>
+      <Param name="conditionsFile" updates="None" val="sub_4.csv" valType="file"/>
+      <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
+      <Param name="isTrials" updates="None" val="True" valType="bool"/>
+      <Param name="loopType" updates="None" val="sequential" valType="str"/>
+      <Param name="nReps" updates="None" val="1" valType="num"/>
+      <Param name="name" updates="None" val="exp_loops" valType="code"/>
+      <Param name="random seed" updates="None" val="" valType="code"/>
+    </LoopInitiator>
+    <Routine name="encoding"/>
+    <Routine name="test"/>
+    <LoopTerminator name="exp_loops"/>
+    <Routine name="instructions_after_part1"/>
+    <LoopInitiator loopType="TrialHandler" name="exp_loops_part2">
+      <Param name="Selected rows" updates="None" val="" valType="str"/>
+      <Param name="conditions" updates="None" val="[OrderedDict([('target', 'badlands_113.jpg'), ('selected_dist', 'badlands_225.jpg'), ('distractor_level', 0), ('image1', 'badlands_113.jpg'), ('image2', 'badlands_225.jpg'), ('correct', 'left'), ('category', 'badlands'), ('background_0', 'mountain_151.jpg'), ('background_1', 'highway_76.jpg'), ('background_2', 'badlands_113.jpg'), ('background_3', 'golf_course_221.jpg'), ('background_4', 'bridge_136.jpg'), ('background_5', 'playground_153.jpg'), ('target_index', 2)]), OrderedDict([('target', 'badlands_222.jpg'), ('selected_dist', 'badlands_34.jpg'), ('distractor_level', 0), ('image1', 'badlands_222.jpg'), ('image2', 'badlands_34.jpg'), ('correct', 'left'), ('category', 'badlands'), ('background_0', 'highway_247.jpg'), ('background_1', 'badlands_222.jpg'), ('background_2', 'mountain_43.jpg'), ('background_3', 'golf_course_333.jpg'), ('background_4', 'bridge_142.jpg'), ('background_5', 'playground_126.jpg'), ('target_index', 1)]), OrderedDict([('target', 'highway_359.jpg'), ('selected_dist', 'highway_379.jpg'), ('distractor_level', 1), ('image1', 'highway_359.jpg'), ('image2', 'highway_379.jpg'), ('correct', 'left'), ('category', 'highway'), ('background_0', 'mountain_268.jpg'), ('background_1', 'badlands_180.jpg'), ('background_2', 'bridge_96.jpg'), ('background_3', 'highway_359.jpg'), ('background_4', 'playground_191.jpg'), ('background_5', 'golf_course_67.jpg'), ('target_index', 3)]), OrderedDict([('target', 'mountain_222.jpg'), ('selected_dist', 'mountain_244.jpg'), ('distractor_level', 0), ('image1', 'mountain_244.jpg'), ('image2', 'mountain_222.jpg'), ('correct', 'right'), ('category', 'mountain'), ('background_0', 'mountain_222.jpg'), ('background_1', 'playground_181.jpg'), ('background_2', 'bridge_266.jpg'), ('background_3', 'golf_course_176.jpg'), ('background_4', 'badlands_156.jpg'), ('background_5', 'highway_268.jpg'), ('target_index', 0)]), OrderedDict([('target', 'bridge_172.jpg'), ('selected_dist', 'bridge_17.jpg'), ('distractor_level', 0), ('image1', 'bridge_172.jpg'), ('image2', 'bridge_17.jpg'), ('correct', 'left'), ('category', 'bridge'), ('background_0', 'golf_course_171.jpg'), ('background_1', 'highway_404.jpg'), ('background_2', 'bridge_172.jpg'), ('background_3', 'playground_83.jpg'), ('background_4', 'mountain_309.jpg'), ('background_5', 'badlands_157.jpg'), ('target_index', 2)]), OrderedDict([('target', 'playground_145.jpg'), ('selected_dist', 'playground_242.jpg'), ('distractor_level', 1), ('image1', 'playground_242.jpg'), ('image2', 'playground_145.jpg'), ('correct', 'right'), ('category', 'playground'), ('background_0', 'playground_145.jpg'), ('background_1', 'highway_9.jpg'), ('background_2', 'bridge_39.jpg'), ('background_3', 'mountain_212.jpg'), ('background_4', 'badlands_79.jpg'), ('background_5', 'golf_course_241.jpg'), ('target_index', 0)]), OrderedDict([('target', 'highway_245.jpg'), ('selected_dist', 'highway_134.jpg'), ('distractor_level', 0), ('image1', 'highway_245.jpg'), ('image2', 'highway_134.jpg'), ('correct', 'left'), ('category', 'highway'), ('background_0', 'bridge_1.jpg'), ('background_1', 'golf_course_338.jpg'), ('background_2', 'playground_256.jpg'), ('background_3', 'highway_245.jpg'), ('background_4', 'badlands_46.jpg'), ('background_5', 'mountain_166.jpg'), ('target_index', 3)]), OrderedDict([('target', 'mountain_293.jpg'), ('selected_dist', 'mountain_47.jpg'), ('distractor_level', 1), ('image1', 'mountain_293.jpg'), ('image2', 'mountain_47.jpg'), ('correct', 'left'), ('category', 'mountain'), ('background_0', 'badlands_183.jpg'), ('background_1', 'golf_course_181.jpg'), ('background_2', 'mountain_293.jpg'), ('background_3', 'playground_222.jpg'), ('background_4', 'bridge_173.jpg'), ('background_5', 'highway_83.jpg'), ('target_index', 2)]), OrderedDict([('target', 'bridge_146.jpg'), ('selected_dist', 'bridge_27.jpg'), ('distractor_level', 0), ('image1', 'bridge_27.jpg'), ('image2', 'bridge_146.jpg'), ('correct', 'right'), ('category', 'bridge'), ('background_0', 'highway_269.jpg'), ('background_1', 'bridge_146.jpg'), ('background_2', 'golf_course_291.jpg'), ('background_3', 'mountain_35.jpg'), ('background_4', 'badlands_55.jpg'), ('background_5', 'playground_195.jpg'), ('target_index', 1)]), OrderedDict([('target', 'playground_257.jpg'), ('selected_dist', 'playground_215.jpg'), ('distractor_level', 1), ('image1', 'playground_257.jpg'), ('image2', 'playground_215.jpg'), ('correct', 'left'), ('category', 'playground'), ('background_0', 'mountain_198.jpg'), ('background_1', 'highway_15.jpg'), ('background_2', 'badlands_80.jpg'), ('background_3', 'golf_course_282.jpg'), ('background_4', 'playground_257.jpg'), ('background_5', 'bridge_62.jpg'), ('target_index', 4)]), OrderedDict([('target', 'mountain_230.jpg'), ('selected_dist', 'mountain_97.jpg'), ('distractor_level', 1), ('image1', 'mountain_230.jpg'), ('image2', 'mountain_97.jpg'), ('correct', 'left'), ('category', 'mountain'), ('background_0', 'golf_course_253.jpg'), ('background_1', 'mountain_230.jpg'), ('background_2', 'highway_81.jpg'), ('background_3', 'playground_47.jpg'), ('background_4', 'badlands_9.jpg'), ('background_5', 'bridge_4.jpg'), ('target_index', 1)]), OrderedDict([('target', 'playground_10.jpg'), ('selected_dist', 'playground_122.jpg'), ('distractor_level', 0), ('image1', 'playground_10.jpg'), ('image2', 'playground_122.jpg'), ('correct', 'left'), ('category', 'playground'), ('background_0', 'highway_226.jpg'), ('background_1', 'golf_course_33.jpg'), ('background_2', 'mountain_38.jpg'), ('background_3', 'playground_10.jpg'), ('background_4', 'bridge_102.jpg'), ('background_5', 'badlands_10.jpg'), ('target_index', 3)]), OrderedDict([('target', 'highway_177.jpg'), ('selected_dist', 'highway_278.jpg'), ('distractor_level', 1), ('image1', 'highway_177.jpg'), ('image2', 'highway_278.jpg'), ('correct', 'left'), ('category', 'highway'), ('background_0', 'golf_course_202.jpg'), ('background_1', 'playground_14.jpg'), ('background_2', 'highway_177.jpg'), ('background_3', 'bridge_152.jpg'), ('background_4', 'badlands_227.jpg'), ('background_5', 'mountain_192.jpg'), ('target_index', 2)]), OrderedDict([('target', 'badlands_21.jpg'), ('selected_dist', 'badlands_1.jpg'), ('distractor_level', 0), ('image1', 'badlands_1.jpg'), ('image2', 'badlands_21.jpg'), ('correct', 'right'), ('category', 'badlands'), ('background_0', 'bridge_72.jpg'), ('background_1', 'badlands_21.jpg'), ('background_2', 'playground_74.jpg'), ('background_3', 'golf_course_56.jpg'), ('background_4', 'mountain_228.jpg'), ('background_5', 'highway_251.jpg'), ('target_index', 1)]), OrderedDict([('target', 'playground_131.jpg'), ('selected_dist', 'playground_164.jpg'), ('distractor_level', 1), ('image1', 'playground_164.jpg'), ('image2', 'playground_131.jpg'), ('correct', 'right'), ('category', 'playground'), ('background_0', 'highway_101.jpg'), ('background_1', 'golf_course_166.jpg'), ('background_2', 'bridge_117.jpg'), ('background_3', 'mountain_180.jpg'), ('background_4', 'playground_131.jpg'), ('background_5', 'badlands_27.jpg'), ('target_index', 4)]), OrderedDict([('target', 'bridge_256.jpg'), ('selected_dist', 'bridge_211.jpg'), ('distractor_level', 1), ('image1', 'bridge_256.jpg'), ('image2', 'bridge_211.jpg'), ('correct', 'left'), ('category', 'bridge'), ('background_0', 'highway_53.jpg'), ('background_1', 'mountain_250.jpg'), ('background_2', 'bridge_256.jpg'), ('background_3', 'playground_165.jpg'), ('background_4', 'golf_course_300.jpg'), ('background_5', 'badlands_128.jpg'), ('target_index', 2)]), OrderedDict([('target', 'badlands_52.jpg'), ('selected_dist', 'badlands_94.jpg'), ('distractor_level', 0), ('image1', 'badlands_94.jpg'), ('image2', 'badlands_52.jpg'), ('correct', 'right'), ('category', 'badlands'), ('background_0', 'highway_399.jpg'), ('background_1', 'golf_course_174.jpg'), ('background_2', 'mountain_91.jpg'), ('background_3', 'badlands_52.jpg'), ('background_4', 'bridge_140.jpg'), ('background_5', 'playground_154.jpg'), ('target_index', 3)]), OrderedDict([('target', 'badlands_23.jpg'), ('selected_dist', 'badlands_114.jpg'), ('distractor_level', 0), ('image1', 'badlands_114.jpg'), ('image2', 'badlands_23.jpg'), ('correct', 'right'), ('category', 'badlands'), ('background_0', 'highway_257.jpg'), ('background_1', 'badlands_23.jpg'), ('background_2', 'golf_course_194.jpg'), ('background_3', 'mountain_251.jpg'), ('background_4', 'playground_140.jpg'), ('background_5', 'bridge_144.jpg'), ('target_index', 1)]), OrderedDict([('target', 'mountain_101.jpg'), ('selected_dist', 'mountain_221.jpg'), ('distractor_level', 1), ('image1', 'mountain_221.jpg'), ('image2', 'mountain_101.jpg'), ('correct', 'right'), ('category', 'mountain'), ('background_0', 'bridge_155.jpg'), ('background_1', 'playground_33.jpg'), ('background_2', 'highway_287.jpg'), ('background_3', 'mountain_101.jpg'), ('background_4', 'badlands_44.jpg'), ('background_5', 'golf_course_127.jpg'), ('target_index', 3)]), OrderedDict([('target', 'badlands_221.jpg'), ('selected_dist', 'badlands_207.jpg'), ('distractor_level', 1), ('image1', 'badlands_207.jpg'), ('image2', 'badlands_221.jpg'), ('correct', 'right'), ('category', 'badlands'), ('background_0', 'golf_course_328.jpg'), ('background_1', 'playground_36.jpg'), ('background_2', 'highway_78.jpg'), ('background_3', 'badlands_221.jpg'), ('background_4', 'mountain_152.jpg'), ('background_5', 'bridge_87.jpg'), ('target_index', 3)]), OrderedDict([('target', 'mountain_154.jpg'), ('selected_dist', 'mountain_95.jpg'), ('distractor_level', 1), ('image1', 'mountain_154.jpg'), ('image2', 'mountain_95.jpg'), ('correct', 'left'), ('category', 'mountain'), ('background_0', 'golf_course_305.jpg'), ('background_1', 'playground_204.jpg'), ('background_2', 'bridge_74.jpg'), ('background_3', 'mountain_154.jpg'), ('background_4', 'badlands_166.jpg'), ('background_5', 'highway_288.jpg'), ('target_index', 3)]), OrderedDict([('target', 'bridge_91.jpg'), ('selected_dist', 'bridge_253.jpg'), ('distractor_level', 0), ('image1', 'bridge_253.jpg'), ('image2', 'bridge_91.jpg'), ('correct', 'right'), ('category', 'bridge'), ('background_0', 'golf_course_55.jpg'), ('background_1', 'playground_98.jpg'), ('background_2', 'bridge_91.jpg'), ('background_3', 'highway_295.jpg'), ('background_4', 'mountain_41.jpg'), ('background_5', 'badlands_33.jpg'), ('target_index', 2)]), OrderedDict([('target', 'highway_273.jpg'), ('selected_dist', 'highway_384.jpg'), ('distractor_level', 0), ('image1', 'highway_273.jpg'), ('image2', 'highway_384.jpg'), ('correct', 'left'), ('category', 'highway'), ('background_0', 'bridge_22.jpg'), ('background_1', 'mountain_146.jpg'), ('background_2', 'badlands_217.jpg'), ('background_3', 'highway_273.jpg'), ('background_4', 'golf_course_116.jpg'), ('background_5', 'playground_55.jpg'), ('target_index', 3)]), OrderedDict([('target', 'playground_60.jpg'), ('selected_dist', 'playground_244.jpg'), ('distractor_level', 1), ('image1', 'playground_60.jpg'), ('image2', 'playground_244.jpg'), ('correct', 'left'), ('category', 'playground'), ('background_0', 'playground_60.jpg'), ('background_1', 'highway_178.jpg'), ('background_2', 'badlands_121.jpg'), ('background_3', 'mountain_126.jpg'), ('background_4', 'golf_course_179.jpg'), ('background_5', 'bridge_118.jpg'), ('target_index', 0)]), OrderedDict([('target', 'golf_course_217.jpg'), ('selected_dist', 'golf_course_35.jpg'), ('distractor_level', 0), ('image1', 'golf_course_35.jpg'), ('image2', 'golf_course_217.jpg'), ('correct', 'right'), ('category', 'golf'), ('background_0', 'playground_37.jpg'), ('background_1', 'mountain_199.jpg'), ('background_2', 'bridge_193.jpg'), ('background_3', 'golf_course_217.jpg'), ('background_4', 'highway_17.jpg'), ('background_5', 'badlands_174.jpg'), ('target_index', 3)]), OrderedDict([('target', 'playground_240.jpg'), ('selected_dist', 'playground_40.jpg'), ('distractor_level', 1), ('image1', 'playground_40.jpg'), ('image2', 'playground_240.jpg'), ('correct', 'right'), ('category', 'playground'), ('background_0', 'mountain_226.jpg'), ('background_1', 'highway_265.jpg'), ('background_2', 'playground_240.jpg'), ('background_3', 'golf_course_313.jpg'), ('background_4', 'badlands_104.jpg'), ('background_5', 'bridge_79.jpg'), ('target_index', 2)]), OrderedDict([('target', 'bridge_202.jpg'), ('selected_dist', 'bridge_38.jpg'), ('distractor_level', 1), ('image1', 'bridge_202.jpg'), ('image2', 'bridge_38.jpg'), ('correct', 'left'), ('category', 'bridge'), ('background_0', 'highway_138.jpg'), ('background_1', 'bridge_202.jpg'), ('background_2', 'mountain_29.jpg'), ('background_3', 'badlands_16.jpg'), ('background_4', 'golf_course_105.jpg'), ('background_5', 'playground_246.jpg'), ('target_index', 1)]), OrderedDict([('target', 'golf_course_331.jpg'), ('selected_dist', 'golf_course_26.jpg'), ('distractor_level', 1), ('image1', 'golf_course_331.jpg'), ('image2', 'golf_course_26.jpg'), ('correct', 'left'), ('category', 'golf'), ('background_0', 'mountain_169.jpg'), ('background_1', 'golf_course_331.jpg'), ('background_2', 'playground_258.jpg'), ('background_3', 'bridge_234.jpg'), ('background_4', 'highway_148.jpg'), ('background_5', 'badlands_122.jpg'), ('target_index', 1)]), OrderedDict([('target', 'badlands_70.jpg'), ('selected_dist', 'badlands_119.jpg'), ('distractor_level', 1), ('image1', 'badlands_70.jpg'), ('image2', 'badlands_119.jpg'), ('correct', 'left'), ('category', 'badlands'), ('background_0', 'bridge_112.jpg'), ('background_1', 'mountain_307.jpg'), ('background_2', 'golf_course_238.jpg'), ('background_3', 'badlands_70.jpg'), ('background_4', 'highway_383.jpg'), ('background_5', 'playground_233.jpg'), ('target_index', 3)]), OrderedDict([('target', 'highway_156.jpg'), ('selected_dist', 'highway_293.jpg'), ('distractor_level', 1), ('image1', 'highway_156.jpg'), ('image2', 'highway_293.jpg'), ('correct', 'left'), ('category', 'highway'), ('background_0', 'playground_6.jpg'), ('background_1', 'highway_156.jpg'), ('background_2', 'badlands_6.jpg'), ('background_3', 'bridge_45.jpg'), ('background_4', 'golf_course_120.jpg'), ('background_5', 'mountain_102.jpg'), ('target_index', 1)]), OrderedDict([('target', 'golf_course_309.jpg'), ('selected_dist', 'golf_course_209.jpg'), ('distractor_level', 1), ('image1', 'golf_course_209.jpg'), ('image2', 'golf_course_309.jpg'), ('correct', 'right'), ('category', 'golf'), ('background_0', 'highway_354.jpg'), ('background_1', 'playground_15.jpg'), ('background_2', 'mountain_187.jpg'), ('background_3', 'badlands_216.jpg'), ('background_4', 'golf_course_309.jpg'), ('background_5', 'bridge_133.jpg'), ('target_index', 4)]), OrderedDict([('target', 'bridge_250.jpg'), ('selected_dist', 'bridge_134.jpg'), ('distractor_level', 0), ('image1', 'bridge_250.jpg'), ('image2', 'bridge_134.jpg'), ('correct', 'left'), ('category', 'bridge'), ('background_0', 'golf_course_196.jpg'), ('background_1', 'highway_30.jpg'), ('background_2', 'bridge_250.jpg'), ('background_3', 'mountain_40.jpg'), ('background_4', 'playground_249.jpg'), ('background_5', 'badlands_97.jpg'), ('target_index', 2)]), OrderedDict([('target', 'golf_course_214.jpg'), ('selected_dist', 'golf_course_312.jpg'), ('distractor_level', 0), ('image1', 'golf_course_312.jpg'), ('image2', 'golf_course_214.jpg'), ('correct', 'right'), ('category', 'golf'), ('background_0', 'highway_102.jpg'), ('background_1', 'golf_course_214.jpg'), ('background_2', 'playground_176.jpg'), ('background_3', 'bridge_164.jpg'), ('background_4', 'badlands_171.jpg'), ('background_5', 'mountain_253.jpg'), ('target_index', 1)]), OrderedDict([('target', 'playground_219.jpg'), ('selected_dist', 'playground_21.jpg'), ('distractor_level', 0), ('image1', 'playground_21.jpg'), ('image2', 'playground_219.jpg'), ('correct', 'right'), ('category', 'playground'), ('background_0', 'golf_course_252.jpg'), ('background_1', 'badlands_120.jpg'), ('background_2', 'bridge_158.jpg'), ('background_3', 'playground_219.jpg'), ('background_4', 'highway_33.jpg'), ('background_5', 'mountain_202.jpg'), ('target_index', 3)]), OrderedDict([('target', 'bridge_128.jpg'), ('selected_dist', 'bridge_61.jpg'), ('distractor_level', 0), ('image1', 'bridge_61.jpg'), ('image2', 'bridge_128.jpg'), ('correct', 'right'), ('category', 'bridge'), ('background_0', 'bridge_128.jpg'), ('background_1', 'highway_154.jpg'), ('background_2', 'badlands_35.jpg'), ('background_3', 'golf_course_137.jpg'), ('background_4', 'mountain_39.jpg'), ('background_5', 'playground_162.jpg'), ('target_index', 0)]), OrderedDict([('target', 'highway_209.jpg'), ('selected_dist', 'highway_122.jpg'), ('distractor_level', 1), ('image1', 'highway_209.jpg'), ('image2', 'highway_122.jpg'), ('correct', 'left'), ('category', 'highway'), ('background_0', 'bridge_52.jpg'), ('background_1', 'playground_78.jpg'), ('background_2', 'golf_course_41.jpg'), ('background_3', 'badlands_47.jpg'), ('background_4', 'highway_209.jpg'), ('background_5', 'mountain_33.jpg'), ('target_index', 4)]), OrderedDict([('target', 'playground_144.jpg'), ('selected_dist', 'playground_65.jpg'), ('distractor_level', 1), ('image1', 'playground_144.jpg'), ('image2', 'playground_65.jpg'), ('correct', 'left'), ('category', 'playground'), ('background_0', 'badlands_215.jpg'), ('background_1', 'mountain_88.jpg'), ('background_2', 'golf_course_102.jpg'), ('background_3', 'playground_144.jpg'), ('background_4', 'bridge_238.jpg'), ('background_5', 'highway_274.jpg'), ('target_index', 3)]), OrderedDict([('target', 'mountain_110.jpg'), ('selected_dist', 'mountain_157.jpg'), ('distractor_level', 0), ('image1', 'mountain_157.jpg'), ('image2', 'mountain_110.jpg'), ('correct', 'right'), ('category', 'mountain'), ('background_0', 'golf_course_42.jpg'), ('background_1', 'playground_103.jpg'), ('background_2', 'mountain_110.jpg'), ('background_3', 'bridge_86.jpg'), ('background_4', 'badlands_60.jpg'), ('background_5', 'highway_342.jpg'), ('target_index', 2)]), OrderedDict([('target', 'highway_394.jpg'), ('selected_dist', 'highway_204.jpg'), ('distractor_level', 0), ('image1', 'highway_204.jpg'), ('image2', 'highway_394.jpg'), ('correct', 'right'), ('category', 'highway'), ('background_0', 'highway_394.jpg'), ('background_1', 'golf_course_144.jpg'), ('background_2', 'playground_68.jpg'), ('background_3', 'badlands_26.jpg'), ('background_4', 'bridge_218.jpg'), ('background_5', 'mountain_32.jpg'), ('target_index', 0)]), OrderedDict([('target', 'golf_course_87.jpg'), ('selected_dist', 'golf_course_161.jpg'), ('distractor_level', 1), ('image1', 'golf_course_87.jpg'), ('image2', 'golf_course_161.jpg'), ('correct', 'left'), ('category', 'golf'), ('background_0', 'golf_course_87.jpg'), ('background_1', 'mountain_190.jpg'), ('background_2', 'bridge_124.jpg'), ('background_3', 'highway_58.jpg'), ('background_4', 'badlands_152.jpg'), ('background_5', 'playground_237.jpg'), ('target_index', 0)]), OrderedDict([('target', 'mountain_156.jpg'), ('selected_dist', 'mountain_128.jpg'), ('distractor_level', 0), ('image1', 'mountain_128.jpg'), ('image2', 'mountain_156.jpg'), ('correct', 'right'), ('category', 'mountain'), ('background_0', 'playground_64.jpg'), ('background_1', 'bridge_180.jpg'), ('background_2', 'badlands_72.jpg'), ('background_3', 'mountain_156.jpg'), ('background_4', 'highway_319.jpg'), ('background_5', 'golf_course_23.jpg'), ('target_index', 3)]), OrderedDict([('target', 'badlands_137.jpg'), ('selected_dist', 'badlands_194.jpg'), ('distractor_level', 0), ('image1', 'badlands_194.jpg'), ('image2', 'badlands_137.jpg'), ('correct', 'right'), ('category', 'badlands'), ('background_0', 'highway_107.jpg'), ('background_1', 'bridge_212.jpg'), ('background_2', 'mountain_206.jpg'), ('background_3', 'badlands_137.jpg'), ('background_4', 'playground_63.jpg'), ('background_5', 'golf_course_265.jpg'), ('target_index', 3)]), OrderedDict([('target', 'golf_course_188.jpg'), ('selected_dist', 'golf_course_157.jpg'), ('distractor_level', 0), ('image1', 'golf_course_157.jpg'), ('image2', 'golf_course_188.jpg'), ('correct', 'right'), ('category', 'golf'), ('background_0', 'highway_199.jpg'), ('background_1', 'playground_227.jpg'), ('background_2', 'badlands_54.jpg'), ('background_3', 'bridge_228.jpg'), ('background_4', 'golf_course_188.jpg'), ('background_5', 'mountain_62.jpg'), ('target_index', 4)]), OrderedDict([('target', 'badlands_184.jpg'), ('selected_dist', 'badlands_103.jpg'), ('distractor_level', 1), ('image1', 'badlands_184.jpg'), ('image2', 'badlands_103.jpg'), ('correct', 'left'), ('category', 'badlands'), ('background_0', 'playground_235.jpg'), ('background_1', 'golf_course_342.jpg'), ('background_2', 'bridge_197.jpg'), ('background_3', 'mountain_294.jpg'), ('background_4', 'badlands_184.jpg'), ('background_5', 'highway_308.jpg'), ('target_index', 4)]), OrderedDict([('target', 'mountain_232.jpg'), ('selected_dist', 'mountain_3.jpg'), ('distractor_level', 0), ('image1', 'mountain_232.jpg'), ('image2', 'mountain_3.jpg'), ('correct', 'left'), ('category', 'mountain'), ('background_0', 'golf_course_128.jpg'), ('background_1', 'playground_124.jpg'), ('background_2', 'badlands_170.jpg'), ('background_3', 'mountain_232.jpg'), ('background_4', 'bridge_147.jpg'), ('background_5', 'highway_305.jpg'), ('target_index', 3)]), OrderedDict([('target', 'highway_93.jpg'), ('selected_dist', 'highway_85.jpg'), ('distractor_level', 0), ('image1', 'highway_85.jpg'), ('image2', 'highway_93.jpg'), ('correct', 'right'), ('category', 'highway'), ('background_0', 'golf_course_307.jpg'), ('background_1', 'highway_93.jpg'), ('background_2', 'badlands_164.jpg'), ('background_3', 'playground_184.jpg'), ('background_4', 'mountain_76.jpg'), ('background_5', 'bridge_190.jpg'), ('target_index', 1)]), OrderedDict([('target', 'highway_294.jpg'), ('selected_dist', 'highway_203.jpg'), ('distractor_level', 0), ('image1', 'highway_203.jpg'), ('image2', 'highway_294.jpg'), ('correct', 'right'), ('category', 'highway'), ('background_0', 'highway_294.jpg'), ('background_1', 'mountain_176.jpg'), ('background_2', 'playground_196.jpg'), ('background_3', 'badlands_106.jpg'), ('background_4', 'bridge_120.jpg'), ('background_5', 'golf_course_269.jpg'), ('target_index', 0)]), OrderedDict([('target', 'golf_course_195.jpg'), ('selected_dist', 'golf_course_2.jpg'), ('distractor_level', 1), ('image1', 'golf_course_2.jpg'), ('image2', 'golf_course_195.jpg'), ('correct', 'right'), ('category', 'golf'), ('background_0', 'golf_course_195.jpg'), ('background_1', 'playground_54.jpg'), ('background_2', 'badlands_211.jpg'), ('background_3', 'mountain_92.jpg'), ('background_4', 'highway_28.jpg'), ('background_5', 'bridge_63.jpg'), ('target_index', 0)]), OrderedDict([('target', 'mountain_57.jpg'), ('selected_dist', 'mountain_138.jpg'), ('distractor_level', 1), ('image1', 'mountain_57.jpg'), ('image2', 'mountain_138.jpg'), ('correct', 'left'), ('category', 'mountain'), ('background_0', 'playground_241.jpg'), ('background_1', 'golf_course_71.jpg'), ('background_2', 'badlands_125.jpg'), ('background_3', 'mountain_57.jpg'), ('background_4', 'highway_37.jpg'), ('background_5', 'bridge_68.jpg'), ('target_index', 3)]), OrderedDict([('target', 'bridge_108.jpg'), ('selected_dist', 'bridge_116.jpg'), ('distractor_level', 0), ('image1', 'bridge_108.jpg'), ('image2', 'bridge_116.jpg'), ('correct', 'left'), ('category', 'bridge'), ('background_0', 'golf_course_297.jpg'), ('background_1', 'highway_90.jpg'), ('background_2', 'badlands_81.jpg'), ('background_3', 'mountain_135.jpg'), ('background_4', 'bridge_108.jpg'), ('background_5', 'playground_118.jpg'), ('target_index', 4)]), OrderedDict([('target', 'golf_course_193.jpg'), ('selected_dist', 'golf_course_235.jpg'), ('distractor_level', 0), ('image1', 'golf_course_193.jpg'), ('image2', 'golf_course_235.jpg'), ('correct', 'left'), ('category', 'golf'), ('background_0', 'mountain_306.jpg'), ('background_1', 'badlands_138.jpg'), ('background_2', 'golf_course_193.jpg'), ('background_3', 'bridge_204.jpg'), ('background_4', 'playground_132.jpg'), ('background_5', 'highway_3.jpg'), ('target_index', 2)]), OrderedDict([('target', 'bridge_65.jpg'), ('selected_dist', 'bridge_60.jpg'), ('distractor_level', 1), ('image1', 'bridge_65.jpg'), ('image2', 'bridge_60.jpg'), ('correct', 'left'), ('category', 'bridge'), ('background_0', 'highway_31.jpg'), ('background_1', 'golf_course_226.jpg'), ('background_2', 'badlands_201.jpg'), ('background_3', 'mountain_120.jpg'), ('background_4', 'bridge_65.jpg'), ('background_5', 'playground_141.jpg'), ('target_index', 4)]), OrderedDict([('target', 'playground_76.jpg'), ('selected_dist', 'playground_22.jpg'), ('distractor_level', 0), ('image1', 'playground_22.jpg'), ('image2', 'playground_76.jpg'), ('correct', 'right'), ('category', 'playground'), ('background_0', 'highway_50.jpg'), ('background_1', 'playground_76.jpg'), ('background_2', 'bridge_126.jpg'), ('background_3', 'mountain_277.jpg'), ('background_4', 'badlands_213.jpg'), ('background_5', 'golf_course_288.jpg'), ('target_index', 1)]), OrderedDict([('target', 'golf_course_15.jpg'), ('selected_dist', 'golf_course_113.jpg'), ('distractor_level', 0), ('image1', 'golf_course_113.jpg'), ('image2', 'golf_course_15.jpg'), ('correct', 'right'), ('category', 'golf'), ('background_0', 'highway_18.jpg'), ('background_1', 'badlands_173.jpg'), ('background_2', 'bridge_24.jpg'), ('background_3', 'playground_251.jpg'), ('background_4', 'golf_course_15.jpg'), ('background_5', 'mountain_137.jpg'), ('target_index', 4)]), OrderedDict([('target', 'badlands_24.jpg'), ('selected_dist', 'badlands_53.jpg'), ('distractor_level', 1), ('image1', 'badlands_53.jpg'), ('image2', 'badlands_24.jpg'), ('correct', 'right'), ('category', 'badlands'), ('background_0', 'playground_50.jpg'), ('background_1', 'golf_course_72.jpg'), ('background_2', 'badlands_24.jpg'), ('background_3', 'highway_29.jpg'), ('background_4', 'mountain_51.jpg'), ('background_5', 'bridge_66.jpg'), ('target_index', 2)]), OrderedDict([('target', 'mountain_123.jpg'), ('selected_dist', 'mountain_94.jpg'), ('distractor_level', 0), ('image1', 'mountain_123.jpg'), ('image2', 'mountain_94.jpg'), ('correct', 'left'), ('category', 'mountain'), ('background_0', 'badlands_105.jpg'), ('background_1', 'bridge_110.jpg'), ('background_2', 'playground_85.jpg'), ('background_3', 'highway_172.jpg'), ('background_4', 'mountain_123.jpg'), ('background_5', 'golf_course_162.jpg'), ('target_index', 4)]), OrderedDict([('target', 'bridge_191.jpg'), ('selected_dist', 'bridge_184.jpg'), ('distractor_level', 0), ('image1', 'bridge_191.jpg'), ('image2', 'bridge_184.jpg'), ('correct', 'left'), ('category', 'bridge'), ('background_0', 'playground_49.jpg'), ('background_1', 'bridge_191.jpg'), ('background_2', 'golf_course_3.jpg'), ('background_3', 'mountain_233.jpg'), ('background_4', 'highway_191.jpg'), ('background_5', 'badlands_200.jpg'), ('target_index', 1)]), OrderedDict([('target', 'golf_course_78.jpg'), ('selected_dist', 'golf_course_134.jpg'), ('distractor_level', 0), ('image1', 'golf_course_134.jpg'), ('image2', 'golf_course_78.jpg'), ('correct', 'right'), ('category', 'golf'), ('background_0', 'playground_16.jpg'), ('background_1', 'golf_course_78.jpg'), ('background_2', 'bridge_254.jpg'), ('background_3', 'highway_193.jpg'), ('background_4', 'mountain_290.jpg'), ('background_5', 'badlands_214.jpg'), ('target_index', 1)]), OrderedDict([('target', 'playground_117.jpg'), ('selected_dist', 'playground_127.jpg'), ('distractor_level', 1), ('image1', 'playground_127.jpg'), ('image2', 'playground_117.jpg'), ('correct', 'right'), ('category', 'playground'), ('background_0', 'highway_36.jpg'), ('background_1', 'badlands_30.jpg'), ('background_2', 'playground_117.jpg'), ('background_3', 'golf_course_219.jpg'), ('background_4', 'bridge_106.jpg'), ('background_5', 'mountain_302.jpg'), ('target_index', 2)]), OrderedDict([('target', 'highway_415.jpg'), ('selected_dist', 'highway_174.jpg'), ('distractor_level', 1), ('image1', 'highway_415.jpg'), ('image2', 'highway_174.jpg'), ('correct', 'left'), ('category', 'highway'), ('background_0', 'playground_173.jpg'), ('background_1', 'bridge_20.jpg'), ('background_2', 'golf_course_59.jpg'), ('background_3', 'highway_415.jpg'), ('background_4', 'mountain_87.jpg'), ('background_5', 'badlands_150.jpg'), ('target_index', 3)])]" valType="str"/>
+      <Param name="conditionsFile" updates="None" val="sub_0.csv" valType="file"/>
+      <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
+      <Param name="isTrials" updates="None" val="True" valType="bool"/>
+      <Param name="loopType" updates="None" val="sequential" valType="str"/>
+      <Param name="nReps" updates="None" val="1" valType="num"/>
+      <Param name="name" updates="None" val="exp_loops_part2" valType="code"/>
+      <Param name="random seed" updates="None" val="" valType="code"/>
+    </LoopInitiator>
+    <Routine name="part2_exp"/>
+    <LoopTerminator name="exp_loops_part2"/>
+    <Routine name="last_slide"/>
+  </Flow>
+</PsychoPy2experiment>
