@@ -7,3 +7,4 @@ projects/multicategory/raw data_features_VGG/
 projects/multicategory/raw data_processed_VGG/
 projects/fungi/similarity_fungi_all_VGG.csv
 projects/birds/similarity_birds_all_VGG.csv
+**/.DS_Store
