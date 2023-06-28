@@ -7,7 +7,7 @@ rating_varience_demo,0.0
 demo_accuracy_treshold,0.0
 fast_allowed_count,5.0
 slow_threshold,10.0
-slow_allowed_count,2.0
-binom_single_layer,0.55
-binom_averages,0.55
+slow_allowed_count,5.0
+binom_single_layer,0.666
+binom_averages,0.6166
 rating_varience_test,0.5
